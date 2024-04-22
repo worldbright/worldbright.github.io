@@ -141,12 +141,21 @@
                 "file": "테스트 무제 파일.md"
               }
             }
+          },
+          {
+            "id": "668a52c9310cf8d2",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
