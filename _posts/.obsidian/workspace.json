@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "테스트 무제 파일.md",
+                "file": "2024-04-22-테스트 무제 파일.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "테스트 무제 파일.md",
+                "file": "2024-04-22-테스트 무제 파일.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "테스트 무제 파일.md",
+                "file": "2024-04-22-테스트 무제 파일.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "테스트 무제 파일.md"
+                "file": "2024-04-22-테스트 무제 파일.md"
               }
             }
           },
@@ -171,6 +171,6 @@
   "active": "0ae88c004c1c7125",
   "lastOpenFiles": [
     "2024-04-21-첫-포스트.md",
-    "테스트 무제 파일.md"
+    "2024-04-22-테스트 무제 파일.md"
   ]
 }
