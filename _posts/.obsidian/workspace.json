@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-04-26 LeetCode - 88. Merge Sorted Array.md",
+                "file": "2024-04-26-LeetCode - 88. Merge Sorted Array.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-04-26 첫 글.md",
+                "file": "2024-04-26-첫 글.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-04-26 첫 글.md",
+                "file": "2024-04-26-첫 글.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-04-26 첫 글.md",
+                "file": "2024-04-26-첫 글.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-04-26 첫 글.md"
+                "file": "2024-04-26-첫 글.md"
               }
             }
           },
@@ -170,8 +170,8 @@
   },
   "active": "94bc8fe85786c068",
   "lastOpenFiles": [
-    "2024-04-26 LeetCode - 88. Merge Sorted Array.md",
-    "2024-04-26 첫 글.md",
+    "2024-04-26-LeetCode - 88. Merge Sorted Array.md",
+    "2024-04-26-첫 글.md",
     "Pasted image 20240426140020.png",
     "2024-04-21-첫-포스트.md"
   ]
