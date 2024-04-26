@@ -8,24 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8b1bcfba3b17afe9",
+            "id": "0ae88c004c1c7125",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-04-21-첫-포스트.md",
+                "file": "2024-04-26 LeetCode - 88. Merge Sorted Array.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "0ae88c004c1c7125",
+            "id": "94bc8fe85786c068",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-04-22-테스트 무제 파일.md",
+                "file": "2024-04-26 첫 글.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-04-22-테스트 무제 파일.md",
+                "file": "2024-04-26 첫 글.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-04-22-테스트 무제 파일.md",
+                "file": "2024-04-26 첫 글.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-04-22-테스트 무제 파일.md"
+                "file": "2024-04-26 첫 글.md"
               }
             }
           },
@@ -151,7 +151,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -168,9 +168,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "0ae88c004c1c7125",
+  "active": "94bc8fe85786c068",
   "lastOpenFiles": [
-    "2024-04-21-첫-포스트.md",
-    "2024-04-22-테스트 무제 파일.md"
+    "2024-04-26 LeetCode - 88. Merge Sorted Array.md",
+    "2024-04-26 첫 글.md",
+    "Pasted image 20240426140020.png",
+    "2024-04-21-첫-포스트.md"
   ]
 }
