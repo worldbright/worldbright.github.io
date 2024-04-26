@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-04-26-첫-글.md",
+                "file": "_posts/2024-04-26-first-diving.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-04-26-첫-글.md",
+                "file": "_posts/2024-04-26-first-diving.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-04-26-첫-글.md",
+                "file": "_posts/2024-04-26-first-diving.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-04-26-첫-글.md"
+                "file": "_posts/2024-04-26-first-diving.md"
               }
             }
           }
@@ -148,13 +148,17 @@
   },
   "active": "64da8bcd896c2e8b",
   "lastOpenFiles": [
-    "ready/2024-04-26-첫-글.md",
-    "_posts/2024-04-26-첫-글.md",
     "assets/img/2024-04-26-첫-글/Pasted-image-20240426144347.png",
-    "assets/img/2024-04-26-첫-글",
-    "backup/첫 글.md",
-    "무제 파일.canvas",
+    "_posts/2024-04-26-첫-글.md",
+    "_posts/2024-04-26-first-diving.md",
+    "assets/img/2024-04-26-first-diving/Pasted-image-20240426144347.png",
+    "assets/img/2024-04-26-first-diving",
+    "ready/2024-04-26-first-diving.md",
+    "backup/first diving.md",
+    "ready/2024-04-26-첫-글.md",
     "attachments/Pasted image 20240426144347.png",
+    "assets/img/2024-04-26-첫-글",
+    "무제 파일.canvas",
     "backup/2024-04-26-첫 글.md",
     "backup/2024-04-26-2024-04-26-2024-04-26-첫-글.md",
     "backup/2024-04-26-2024-04-26-첫-글.md",
