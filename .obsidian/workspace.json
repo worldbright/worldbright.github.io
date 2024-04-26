@@ -1,52 +1,39 @@
 {
   "main": {
-    "id": "6d8d7396866d1d1c",
+    "id": "9d0e9d8adeea93da",
     "type": "split",
     "children": [
       {
-        "id": "8da7c8831236bdd4",
+        "id": "cde8a1f9dad0f700",
         "type": "tabs",
         "children": [
           {
-            "id": "0ae88c004c1c7125",
+            "id": "64da8bcd896c2e8b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-04-26-LeetCode - 88. Merge Sorted Array.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "94bc8fe85786c068",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024-04-26-첫 글.md",
+                "file": "_posts/2024-04-26-첫 글.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "f1e1fd7c182a01e4",
+    "id": "963ba1ab9ad368ac",
     "type": "split",
     "children": [
       {
-        "id": "b4555774a7bd456c",
+        "id": "97b09c6669ff1b21",
         "type": "tabs",
         "children": [
           {
-            "id": "f2a4d47b5598112e",
+            "id": "0845d310f9c2be24",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -56,7 +43,7 @@
             }
           },
           {
-            "id": "c7eac35c06f13d34",
+            "id": "af7a33684750be38",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -71,7 +58,7 @@
             }
           },
           {
-            "id": "09c8f06ba1bcbd37",
+            "id": "89a5d0afebfc5cb2",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -85,20 +72,20 @@
     "width": 300
   },
   "right": {
-    "id": "c17e857b6195886b",
+    "id": "e60661ac7d063a6d",
     "type": "split",
     "children": [
       {
-        "id": "6ce65b0d28488783",
+        "id": "900f14392a432457",
         "type": "tabs",
         "children": [
           {
-            "id": "8df07dbaddb425eb",
+            "id": "b374f8e8291c06b3",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-04-26-첫 글.md",
+                "file": "_posts/2024-04-26-첫 글.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,19 +97,19 @@
             }
           },
           {
-            "id": "968fbf4c32e719e8",
+            "id": "c9d5f6a7f67265f8",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-04-26-첫 글.md",
+                "file": "_posts/2024-04-26-첫 글.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "8d7c4ab7511ec293",
+            "id": "2c0ae98e503e04b9",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -133,29 +120,20 @@
             }
           },
           {
-            "id": "b837713ac9f3f23b",
+            "id": "4633e591635f98bc",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-04-26-첫 글.md"
+                "file": "_posts/2024-04-26-첫 글.md"
               }
             }
-          },
-          {
-            "id": "668a52c9310cf8d2",
-            "type": "leaf",
-            "state": {
-              "type": "git-history-view",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
@@ -168,12 +146,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "f2a4d47b5598112e",
+  "active": "64da8bcd896c2e8b",
   "lastOpenFiles": [
-    "_images",
-    "Pasted image 20240426140020.png",
-    "2024-04-26-첫 글.md",
-    "2024-04-26-LeetCode - 88. Merge Sorted Array.md",
-    "2024-04-21-첫-포스트.md"
+    "Pasted image 20240426142511.png",
+    "assets/img/2024-04-26-첫-글/1.png",
+    "_posts/2024-04-26-첫 글.md",
+    "assets/img/2024-04-26-첫-글",
+    "assets/img/2024-04-26-첫.md",
+    "_posts/2024-04-26-LeetCode - 88. Merge Sorted Array.md"
   ]
 }
