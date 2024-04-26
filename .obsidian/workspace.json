@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-04-26-첫 글.md",
+                "file": "_posts/2024-04-26-첫-글.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-04-26-첫 글.md",
+                "file": "_posts/2024-04-26-첫-글.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-04-26-첫 글.md",
+                "file": "_posts/2024-04-26-첫-글.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-04-26-첫 글.md"
+                "file": "_posts/2024-04-26-첫-글.md"
               }
             }
           }
@@ -148,11 +148,27 @@
   },
   "active": "64da8bcd896c2e8b",
   "lastOpenFiles": [
-    "Pasted image 20240426142511.png",
-    "assets/img/2024-04-26-첫-글/1.png",
-    "_posts/2024-04-26-첫 글.md",
+    "ready/2024-04-26-첫-글.md",
+    "_posts/2024-04-26-첫-글.md",
+    "assets/img/2024-04-26-첫-글/Pasted-image-20240426144347.png",
     "assets/img/2024-04-26-첫-글",
-    "assets/img/2024-04-26-첫.md",
-    "_posts/2024-04-26-LeetCode - 88. Merge Sorted Array.md"
+    "backup/첫 글.md",
+    "무제 파일.canvas",
+    "attachments/Pasted image 20240426144347.png",
+    "backup/2024-04-26-첫 글.md",
+    "backup/2024-04-26-2024-04-26-2024-04-26-첫-글.md",
+    "backup/2024-04-26-2024-04-26-첫-글.md",
+    "_posts/2024-04-26-LeetCode - 88. Merge Sorted Array.md",
+    "asset/img.md",
+    "asset",
+    "Pasted image 20240426144439.png",
+    "Pasted image 20240426144209.png",
+    "Pasted image 20240426144201.png",
+    "Pasted image 20240426142511.png",
+    "backup",
+    "ready",
+    "attachments",
+    "assets/img/2024-04-26-첫-글/1.png",
+    "assets/img/2024-04-26-첫.md"
   ]
 }
