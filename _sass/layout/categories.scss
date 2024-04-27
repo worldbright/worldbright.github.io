@@ -7,21 +7,19 @@
 }
 
 // start - sidebar categories custom css
-.nav-item .categories {
+.sidebar-category .categories {
   margin-bottom: 0 !important;
 }
 
-.nav-item .categories .card-header {
+.sidebar-category .categories .card-header {
   padding: 0.2rem 0.75rem !important;
 }
 
-.nav-item .categories a:hover {
-  color: var(--link-color) !important;
-  border-bottom: 1px solid var(--link-color);
-  text-decoration: none;
+.sidebar-category .categories .list-group {
+  margin-bottom: 0 !important;
 }
 
-.nav-item .categories .list-group-item {
+.sidebar-category .categories .list-group-item {
   padding-top: 0.2rem;
   padding-bottom: 0.2rem;
 }
@@ -50,6 +48,14 @@
   background-color: unset !important;
 }
 
+.sidebar-category .card-header:hover {
+  background-color: #eeeeee;
+}
+
+.sidebar-category .list-group-item:hover {
+  background-color: #efefef;
+}
+
 // end - sidebar categories custom css
 
 .categories {
@@ -59,7 +65,6 @@
   &.card,
   .list-group {
     @extend %rounded;
-    margin-bottom: 0 !important;
   }
 
   .card-header {
