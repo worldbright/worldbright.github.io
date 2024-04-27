@@ -157,6 +157,9 @@
   },
   "active": "64da8bcd896c2e8b",
   "lastOpenFiles": [
+    "_site/assets/js/pwa/sw.js",
+    "_site/assets/js/pwa",
+    "_site/sw.min.js",
     "_posts/2024-04-26-LeetCode - 88. Merge Sorted Array.md",
     "_posts/2024-04-26-first-diving.md",
     "ready",
@@ -169,8 +172,6 @@
     "_site/assets/img/2024-04-26-first-diving/Pasted-image-20240426144347.png",
     "_site/assets/img/2024-04-26-first-diving",
     "_site/categories/free/index.html",
-    "_site/categories/free",
-    "_site/categories/deep-diving/index.html",
     "backup/first diving.md",
     "attachments/Pasted image 20240426144347.png",
     "assets/img/2024-04-26-first-diving/Pasted-image-20240426144347.png",
