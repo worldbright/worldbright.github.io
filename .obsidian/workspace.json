@@ -128,12 +128,21 @@
                 "file": "_posts/2024-04-26-first-diving.md"
               }
             }
+          },
+          {
+            "id": "ed5cfefcc4d26c15",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
