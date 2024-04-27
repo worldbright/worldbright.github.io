@@ -5,7 +5,7 @@ categories:
   - Leet Code Free
 tags:
   - LeetCode
-date: Sun Apr 28 2024 03:44:00 GMT+0900 (한국 표준시)
+date: 2024-04-27T17:05:00
 ---
 
 이제부터 리트코드를 꾸준히 풀어볼 거에요!
