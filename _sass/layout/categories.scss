@@ -6,6 +6,52 @@
   color: gray;
 }
 
+// start - sidebar categories custom css
+.nav-item .categories {
+  margin-bottom: 0 !important;
+}
+
+.nav-item .categories .card-header {
+  padding: 0.2rem 0.75rem !important;
+}
+
+.nav-item .categories a:hover {
+  color: var(--link-color) !important;
+  border-bottom: 1px solid var(--link-color);
+  text-decoration: none;
+}
+
+.nav-item .categories .list-group-item {
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+
+.sidebar-category {
+  padding: 0.3rem !important;
+  margin-left: 1.2rem !important;
+  margin-right: 1.2rem !important;
+  //border: 1px dashed lightgrey;
+  border-radius: 0.75rem;
+}
+
+.sidebar-category.active {
+  background-color: var(--sidebar-hover-bg);
+}
+
+.sidebar-category:hover {
+  background-color: var(--sidebar-hover-bg);
+}
+
+.sidebar-category .nav-link:hover {
+  background-color: unset !important;
+}
+
+.sidebar-category.active .nav-link {
+  background-color: unset !important;
+}
+
+// end - sidebar categories custom css
+
 .categories {
   margin-bottom: 2rem;
   border-color: var(--categories-border);
@@ -13,6 +59,7 @@
   &.card,
   .list-group {
     @extend %rounded;
+    margin-bottom: 0 !important;
   }
 
   .card-header {
