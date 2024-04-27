@@ -48,12 +48,64 @@
   background-color: unset !important;
 }
 
-.sidebar-category .card-header:hover {
-  background-color: #eeeeee;
+html {
+  @media (prefers-color-scheme: light) {
+    &:not([data-mode]),
+    &[data-mode='light'] {
+      .sidebar-category .card-header:hover {
+        background: lightgrey;
+      }
+    }
+    &[data-mode='dark'] {
+      .sidebar-category .card-header:hover {
+        filter: brightness(150%);
+      }
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    &:not([data-mode]),
+    &[data-mode='dark'] {
+      .sidebar-category .card-header:hover {
+        filter: brightness(150%);
+      }
+    }
+    &[data-mode='light'] {
+      .sidebar-category .card-header:hover {
+        background: lightgrey;
+      }
+    }
+  }
 }
 
-.sidebar-category .list-group-item:hover {
-  background-color: #efefef;
+html {
+  @media (prefers-color-scheme: light) {
+    &:not([data-mode]),
+    &[data-mode='light'] {
+      .sidebar-category .list-group-item:hover {
+        filter: brightness(90%);
+      }
+    }
+    &[data-mode='dark'] {
+      .sidebar-category .list-group-item:hover {
+        filter: brightness(150%);
+      }
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    &:not([data-mode]),
+    &[data-mode='dark'] {
+      .sidebar-category .list-group-item:hover {
+        filter: brightness(150%);
+      }
+    }
+    &[data-mode='light'] {
+      .sidebar-category .list-group-item:hover {
+        filter: brightness(90%);
+      }
+    }
+  }
 }
 
 // end - sidebar categories custom css

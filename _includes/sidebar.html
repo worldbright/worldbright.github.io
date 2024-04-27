@@ -72,7 +72,7 @@
                     <div
                       id="{{ HEAD_PREFIX }}{{ group_index }}"
                       class="card-header d-flex justify-content-between hide-border-bottom"
-                      OnClick="location.href = '{{ _category_url | relative_url }}'"
+                      OnClick="if (!event.delegateTarget?.activeElement?.classList?.contains('category-trigger')) location.href = '{{ _category_url | relative_url }}';"
                       style="cursor: pointer"
                     >
                       <span class="ms-2">
