@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-04-26-first-diving.md",
+                "file": "_posts/2024-04-27-leetcode-88.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#교훈을",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-04-26-first-diving.md",
+                "file": "_posts/2024-04-27-leetcode-88.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-04-26-first-diving.md",
+                "file": "_posts/2024-04-27-leetcode-88.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-04-26-first-diving.md"
+                "file": "_posts/2024-04-27-leetcode-88.md"
               }
             }
           },
@@ -147,34 +147,50 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:퀵 스위처 열기": false,
-      "graph:그래프 뷰 열기": false,
-      "canvas:새 캔버스 만들기": false,
-      "daily-notes:오늘의 데일리 노트 열기": false,
-      "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
   "active": "64da8bcd896c2e8b",
   "lastOpenFiles": [
-    "_site/assets/css/jekyll-theme-chirpy.css.map",
-    "_site/assets/js/pwa/sw.js",
-    "_site/assets/js/pwa",
-    "_site/sw.min.js",
-    "_posts/2024-04-26-LeetCode - 88. Merge Sorted Array.md",
-    "_posts/2024-04-26-first-diving.md",
-    "ready",
-    "_site/posts/first-diving/index.html",
-    "_site/posts/first-diving",
-    "_site/posts/LeetCode-88.-Merge-Sorted-Array/index.html",
-    "_site/posts/LeetCode-88.-Merge-Sorted-Array",
-    "_site/attachments/Pasted image 20240426144347.png",
-    "_site/attachments",
-    "_site/assets/img/2024-04-26-first-diving/Pasted-image-20240426144347.png",
-    "_site/assets/img/2024-04-26-first-diving",
-    "backup/first diving.md",
     "attachments/Pasted image 20240426144347.png",
-    "assets/img/2024-04-26-first-diving/Pasted-image-20240426144347.png",
+    "_posts/2024-04-27-leetcode-88.md",
+    "_posts/2024-04-27-leetcode-start.md",
+    "_site/categories/leet-code-free/index.html",
+    "_site/categories/leet-code-free",
+    "_site/categories/leetcode/index.html",
+    "_site/categories/leetcode",
+    "_site/posts/leetcode-88/index.html",
+    "_site/posts/leetcode-88",
+    "_site/posts/leetcode-start/index.html",
+    "_site/posts/leetcode-start",
+    "_site/categories/top-interview-150/index.html",
+    "_site/categories/top-interview-150",
+    "_site/attachments/Pasted image 20240427202703.png",
+    "_site/attachments/Pasted image 20240427201732.png",
+    "_site/attachments/Pasted image 20240427200615.png",
+    "_site/attachments/Pasted image 20240427200246.png",
+    "_site/attachments/Pasted image 20240427195242.png",
+    "_site/assets/img/2024-04-27-leetcode-start/Pasted-image-20240427202703.png",
+    "_site/assets/img/2024-04-27-leetcode-88/Pasted-image-20240427201732.png",
+    "_site/assets/img/2024-04-27-leetcode-88/Pasted-image-20240427200615.png",
+    "_site/assets/img/2024-04-27-leetcode-88/Pasted-image-20240427200246.png",
+    "_site/assets/img/2024-04-27-leetcode-88/Pasted-image-20240427195242.png",
+    "ready/2024-04-27-leetcode-88.md",
+    "backup/leetcode-88.md",
+    "backup/leetcode-start.md",
+    "ready/2024-04-27-leetcode-start.md",
+    "2024-04-27.md",
+    "_posts/2024-04-26-first-diving.md",
+    "().md",
+    "code-try-2.md",
+    "code.md",
+    "_posts/2024-04-26-LeetCode - 88. Merge Sorted Array.md",
+    "backup/first diving.md",
     "node_modules/es-abstract/README.md",
     "node_modules/es-abstract/CHANGELOG.md",
     "node_modules/typescript/SECURITY.md",
@@ -187,22 +203,6 @@
     "node_modules/stylelint/README.md",
     "node_modules/lodash-es/release.md",
     "node_modules/lodash-es/README.md",
-    "node_modules/regenerate-unicode-properties/README.md",
-    "node_modules/css-tree/README.md",
-    "node_modules/highlight.js/styles/school-book.png",
-    "node_modules/highlight.js/styles/brown-papersq.png",
-    "node_modules/highlight.js/README.md",
-    "node_modules/@semantic-release/github/node_modules/@semantic-release/error/README.md",
-    "node_modules/semantic-release/node_modules/@semantic-release/error/README.md",
-    "node_modules/handlebars/release-notes.md",
-    "node_modules/ajv/README.md",
-    "node_modules/@semantic-release/npm/node_modules/@semantic-release/error/README.md",
-    "node_modules/stylelint-scss/README.md",
-    "node_modules/rollup/README.md",
-    "node_modules/highlight.js/styles/pojoaque.jpg",
-    "node_modules/highlight.js/scss/school-book.png",
-    "node_modules/highlight.js/scss/pojoaque.jpg",
-    "node_modules/highlight.js/scss/brown-papersq.png",
     "무제 파일.canvas"
   ]
 }
