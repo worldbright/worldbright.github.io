@@ -6,7 +6,7 @@ tags: null
 
 블로그 개설 후 첫 글이에요.
 
-https://blog.naver.com/chltpgus11
+[https://blog.naver.com/chltpgus11](https://blog.naver.com/chltpgus11)
 
 원래 요 네이버 블로그에 초등학생 무렵 때 부터 취업 전 까지는 자기 만족을 위해 가끔씩 개발, 게임, 취미 등 여러가지 글을 작성했었는데
 2022년 취업 후에 2년 동안 전혀 글을 쓰지 않고 있었어요..

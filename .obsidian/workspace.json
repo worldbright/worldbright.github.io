@@ -11,8 +11,12 @@
             "id": "64da8bcd896c2e8b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-04-26-first-diving.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_posts/2024-04-26-first-diving.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_posts/2024-04-26-first-diving.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_posts/2024-04-26-first-diving.md"
+              }
             }
           }
         ]
@@ -138,7 +146,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "0845d310f9c2be24",
+  "active": "64da8bcd896c2e8b",
   "lastOpenFiles": [
     "ready",
     "_site/posts/first-diving/index.html",
