@@ -1,3 +1,14 @@
+---
+title: 쿠버네티스에서 ingress, service 등을 거친 요청은 어떻게 전달될까? 실제 client IP는 유지될까?
+categories:
+  - Deep Diving
+  - Kubernetes
+tags:
+  - Kubernetes
+  - HTTP
+  - x-forwarded-for
+---
+
 # 개요
 
 사내 인프라 팀 덕분에 많은 자동화 처리가 되어 있어서, 쿠버네티스를 너무나도 쉽고 간편하게 web ui를 통해 쓸 수 있었어요. 작동방식이나 원리, 설정파일 등에 대해서 전혀 몰라도 10분이면 deployment, service, ingress를 설정해서 spring boot 앱을 replica 여러 개 띄우고 도메인을 연결해둘 수 있죠.
