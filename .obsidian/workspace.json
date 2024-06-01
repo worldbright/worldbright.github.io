@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ready/쿠버네티스에서는 HTTP 요청이 내부 여러 서버에 거쳐서 전달되는데, 실제 client IP는 어디에 저장될까?.md",
+                "file": "_posts/2024-06-02-쿠버네티스에서-ingress,-service-등을-거친-요청은-어떻게-전달될까?-실제-client-IP는-유지될까?.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ready/쿠버네티스에서는 HTTP 요청이 내부 여러 서버에 거쳐서 전달되는데, 실제 client IP는 어디에 저장될까?.md",
+                "file": "_posts/2024-06-02-쿠버네티스에서-ingress,-service-등을-거친-요청은-어떻게-전달될까?-실제-client-IP는-유지될까?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ready/쿠버네티스에서는 HTTP 요청이 내부 여러 서버에 거쳐서 전달되는데, 실제 client IP는 어디에 저장될까?.md",
+                "file": "_posts/2024-06-02-쿠버네티스에서-ingress,-service-등을-거친-요청은-어떻게-전달될까?-실제-client-IP는-유지될까?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ready/쿠버네티스에서는 HTTP 요청이 내부 여러 서버에 거쳐서 전달되는데, 실제 client IP는 어디에 저장될까?.md"
+                "file": "_posts/2024-06-02-쿠버네티스에서-ingress,-service-등을-거친-요청은-어떻게-전달될까?-실제-client-IP는-유지될까?.md"
               }
             }
           }
@@ -148,6 +148,11 @@
   },
   "active": "d27490454e9e5f0f",
   "lastOpenFiles": [
+    "ready/2024-06-02-쿠버네티스에서-ingress,-service-등을-거친-요청은-어떻게-전달될까?-실제-client-IP는-유지될까?.md",
+    "_posts/2024-06-02-쿠버네티스에서-ingress,-service-등을-거친-요청은-어떻게-전달될까?-실제-client-IP는-유지될까?.md",
+    "backup/쿠버네티스에서 ingress, service 등을 거친 요청은 어떻게 전달될까? 실제 client IP는 유지될까?.md",
+    "attachments",
+    "ready/쿠버네티스에서는 HTTP 요청이 내부 여러 서버에 거쳐서 전달되는데, 실제 client IP는 어디에 저자.md",
     "ready/쿠버네티스에서는 HTTP 요청이 내부 여러 서버에 거쳐서 전달되는데, 실제 client IP는 어디에 저장될까?.md",
     "ready/쿠버네티스에서는 HTTP 요청이 내부 여러 서버에 거쳐서 전달되는데, 실제 client IP는 어디에 저자dfsgaafsdfads.md"
   ]
