@@ -5,7 +5,7 @@
 그렇게 쉽게 사용하다가, 자연스럽게 이런 궁금증이 생겨버렸어요.
 
 > *외부에서의 요청은 최종적으로 ingress에 도달하고, ingress가 pod에 전달하잖아.*
->>> *그렇다면 pod 입장에서는.. client(source ip)가 ingress인가?
+> *그렇다면 pod 입장에서는.. client(source ip)가 ingress인가?
 > 실제 client IP는 어떻게 처리되고.. 최종적으로 어떻게 응답을 전송하게 되는 거지?*
 
 쿠버네티스 시스템 뿐만 아니라, 이와 같은 구조로 **"라우팅"** 하는 어느 곳에서든 요런 궁금증이 생길 수도 있을 것 같긴 해요.
@@ -25,9 +25,9 @@
 4. service가 추상화된 개념..? 그럼 ingress는 실체가 없는 service로 패킷은 어떻게 전달하지?
 	- kube-proxy가 service ip가 pod ip로 향할 수 있도록. 리눅스의 netfliter를 설정하는 방식으로 ***Service의 역할을 구현한다.***
 	- 결국 이런 방식이 될 것이다.
-		1) ingress가 내부 dns(coredns)에 service name을 질의
-		2) ingress가 질의로 얻은 service ip로 요청 패킷 전송
-		3) netfliter가 service로 인해 설정된 규칙에 의해 service ip를 pod ip로 전송하게 변경
+		- 1) ingress가 내부 dns(coredns)에 service name을 질의
+		- 2) ingress가 질의로 얻은 service ip로 요청 패킷 전송
+		- 3) netfliter가 service로 인해 설정된 규칙에 의해 service ip를 pod ip로 전송하게 변경
 5. 그럼.. 결국 ingress는 pod ip와 직접 통신하게 되는 것이구나.
 6. HTTP 프로토콜로 통신한다고 했을 때.. client -> ingress 와 ingress -> pod 이 두 개의 요청에서 실제 client ip는 어떻게 처리되는 거지?
 	- 요청이 proxy되는 상황에서는 x-forwarded-for 이라는 표준 HTTP 헤더에 실제 client ip를 기록한다. x-forwarded-for: client-ip, proxy-ip1, proxy-ip2 이렇게 proxy될 때 마다 뒤에 해당 ip를 붙여 쓴다. (면밀히 말하면 표준 헤더는 아니지만, 공공연히 표준처럼 쓰이고 있다. 왜 표준이 아닌데 표준처럼 쓰이고 있는 건지...? 이거는 나중에 좀 알아보고 포스팅 해봐야겠어요.)
@@ -37,10 +37,10 @@
 
 위에서 파악한 내용에 의해서
 
-**ingress nginx 웹 서버가 요청을 pod으로 전달하기 위해  
-ingress에서 pod으로 향하는 새로운 패킷이 생성되어 전송될 것이다.
-1) **이 패킷의 source ip는 ingress ip**
-2) **윗 단의 HTTP에서는 x-forwarded-for 헤더에 client ip와 ingress ip가 기록됨**
+> ingress nginx 웹 서버가 요청을 pod으로 전달하기 위해  
+> ingress에서 pod으로 향하는 새로운 패킷이 생성되어 전송될 것이다.  
+> - 이 패킷의 source ip는 ingress ip  
+> - 윗 단의 HTTP에서는 x-forwarded-for 헤더에 client ip와 ingress ip가 기록됨  
 
 일 거라는 유추가 가능했어요.
 
@@ -80,11 +80,11 @@ ingress에서 pod으로 향하는 새로운 패킷이 생성되어 전송될 것
 - x-forwarded-for 혹은 x-real-ip에 관한 여러가지 ingress 설정이 있다.
 	- externalTrafficPolicy
 	- use-proxy-protocol
-	- 자세한 설명은 https://blog.barogo.io/%EC%A7%84%EC%A7%9C-source-ip-%EB%A5%BC-pod-%EA%B9%8C%EC%A7%80-%EC%A0%9C%EB%8C%80%EB%A1%9C-%EC%A0%84%EB%8B%AC-%ED%95%98%EA%B8%B0-%EC%9C%84%ED%95%9C-%EC%82%BD%EC%A7%88%EA%B8%B0-2e928a5f9e3e 에서 확인할 수 있다.
+	- 자세한 설명은 [https://blog.barogo.io/%EC%A7%84%EC%A7%9C-source-ip-%EB%A5%BC-pod-%EA%B9%8C%EC%A7%80-%EC%A0%9C%EB%8C%80%EB%A1%9C-%EC%A0%84%EB%8B%AC-%ED%95%98%EA%B8%B0-%EC%9C%84%ED%95%9C-%EC%82%BD%EC%A7%88%EA%B8%B0-2e928a5f9e3e](https://blog.barogo.io/%EC%A7%84%EC%A7%9C-source-ip-%EB%A5%BC-pod-%EA%B9%8C%EC%A7%80-%EC%A0%9C%EB%8C%80%EB%A1%9C-%EC%A0%84%EB%8B%AC-%ED%95%98%EA%B8%B0-%EC%9C%84%ED%95%9C-%EC%82%BD%EC%A7%88%EA%B8%B0-2e928a5f9e3e) 에서 확인할 수 있다.
 
 ## reference
 
-- https://weng-albert.medium.com/understanding-the-basics-of-internal-networking-in-kubernetes-dfc27beef60d
-- https://medium.com/finda-tech/kubernetes-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%A0%95%EB%A6%AC-fccd4fd0ae6
-- https://kubernetes.io/ko/docs/concepts/services-networking/ingress/
-- https://kubernetes.io/ko/docs/concepts/services-networking/dns-pod-service/
+- [https://weng-albert.medium.com/understanding-the-basics-of-internal-networking-in-kubernetes-dfc27beef60d](https://weng-albert.medium.com/understanding-the-basics-of-internal-networking-in-kubernetes-dfc27beef60d)
+- [https://medium.com/finda-tech/kubernetes-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%A0%95%EB%A6%AC-fccd4fd0ae6](https://medium.com/finda-tech/kubernetes-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%A0%95%EB%A6%AC-fccd4fd0ae6)
+- [https://kubernetes.io/ko/docs/concepts/services-networking/ingress/](https://kubernetes.io/ko/docs/concepts/services-networking/ingress/)
+- [https://kubernetes.io/ko/docs/concepts/services-networking/dns-pod-service/](https://kubernetes.io/ko/docs/concepts/services-networking/dns-pod-service/)
