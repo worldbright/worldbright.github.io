@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "cde8a1f9dad0f700",
+        "id": "f78cd4c447a49b87",
         "type": "tabs",
         "children": [
           {
-            "id": "64da8bcd896c2e8b",
+            "id": "c903590afa0d1f12",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-04-27-leetcode-88.md",
+                "file": "ready/쿠버네티스 내부에서 HTTP 요청이 여러 번 거쳐서 전달되는데, 실제 client IP는 어디에 저장될까?.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-04-27-leetcode-88.md",
+                "file": "ready/쿠버네티스 내부에서 HTTP 요청이 여러 번 거쳐서 전달되는데, 실제 client IP는 어디에 저장될까?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-04-27-leetcode-88.md",
+                "file": "ready/쿠버네티스 내부에서 HTTP 요청이 여러 번 거쳐서 전달되는데, 실제 client IP는 어디에 저장될까?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-04-27-leetcode-88.md"
+                "file": "ready/쿠버네티스 내부에서 HTTP 요청이 여러 번 거쳐서 전달되는데, 실제 client IP는 어디에 저장될까?.md"
               }
             }
           },
@@ -154,31 +154,43 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4633e591635f98bc",
+  "active": "c903590afa0d1f12",
   "lastOpenFiles": [
-    "_site/posts/leetcode-88/index.html",
-    "_site/posts/leetcode-88",
-    "_site/posts/leetcode-start/index.html",
-    "_site/posts/leetcode-start",
-    "_site/categories/top-interview-150/index.html",
-    "_site/categories/top-interview-150",
-    "_site/categories/leet-code-free/index.html",
-    "_site/categories/leet-code-free",
-    "_site/categories/leet-code/index.html",
-    "_site/categories/leet-code",
-    "_site/tags/topinterview150/index.html",
-    "_posts/2024-04-27-leetcode-start.md",
+    "ready/쿠버네티스 내부에서 HTTP 요청이 여러 번 거쳐서 전달되는데, 실제로 요청한 client IP는 어디에 저장될까.md",
+    "ready/쿠버네티스 내부에서 HTTP 요청이 여러 번 거쳐서 전달되는데, 실제 client IP는 어디에 저장될까?.md",
+    "ready/쿠버네티스 내부에서는 HTTP 요청이 많이 proxy 되는데, 실제로 요청한 client IP는 어디에 저장될까?.md",
+    "worldbright.github.io/tools/test",
+    "worldbright.github.io/tools/run",
+    "worldbright.github.io/tools/release",
+    "worldbright.github.io/tools/init",
+    "worldbright.github.io/tools",
+    "worldbright.github.io/rollup.config.js",
+    "worldbright.github.io/package.json",
+    "worldbright.github.io/package-lock.json",
+    "worldbright.github.io/jekyll-theme-chirpy.gemspec",
+    "worldbright.github.io/index.html",
+    "worldbright.github.io/backup/leetcode-start.md",
+    "worldbright.github.io/backup/leetcode-88.md",
+    "worldbright.github.io/backup/first diving.md",
+    "worldbright.github.io/assets/img/favicons/mstile-150x150.png",
+    "worldbright.github.io/assets/img/favicons/favicon-32x32.png",
+    "worldbright.github.io/assets/img/favicons/favicon-16x16.png",
+    "worldbright.github.io/assets/img/favicons/apple-touch-icon.png",
+    "worldbright.github.io/assets/img/favicons/android-chrome-512x512.png",
+    "worldbright.github.io/assets/img/favicons/android-chrome-192x192.png",
+    "worldbright.github.io/assets/img/2024-04-27-leetcode-88/Pasted-image-20240427200615.png",
+    "worldbright.github.io/assets/img/2024-04-27-leetcode-start/Pasted-image-20240427202703.png",
+    "worldbright.github.io/assets/img/2024-04-27-leetcode-88/Pasted-image-20240427201732.png",
+    "worldbright.github.io/assets/img/2024-04-27-leetcode-88/Pasted-image-20240427200246.png",
+    "worldbright.github.io/_tabs/tags.md",
+    "worldbright.github.io/_tabs/archives.md",
+    "worldbright.github.io/_tabs/about.md",
+    "worldbright.github.io/_tabs/categories.md",
+    "worldbright.github.io/_posts/2024-04-27-leetcode-start.md",
+    "worldbright.github.io/_posts/2024-04-27-leetcode-88.md",
+    "worldbright.github.io/_posts/2024-04-26-first-diving.md",
     "_posts/2024-04-27-leetcode-88.md",
-    "attachments/Pasted image 20240426144347.png",
-    "_site/attachments/Pasted image 20240427202703.png",
-    "_site/attachments/Pasted image 20240427201732.png",
-    "_site/attachments/Pasted image 20240427200615.png",
-    "_site/attachments/Pasted image 20240427200246.png",
-    "_site/attachments/Pasted image 20240427195242.png",
-    "_site/assets/img/2024-04-27-leetcode-start/Pasted-image-20240427202703.png",
-    "_site/assets/img/2024-04-27-leetcode-88/Pasted-image-20240427201732.png",
-    "_site/assets/img/2024-04-27-leetcode-88/Pasted-image-20240427200615.png",
-    "_site/assets/img/2024-04-27-leetcode-88/Pasted-image-20240427200246.png",
+    "_posts/2024-04-27-leetcode-start.md",
     "ready/2024-04-27-leetcode-88.md",
     "backup/leetcode-88.md",
     "backup/leetcode-start.md",
@@ -190,18 +202,6 @@
     "code.md",
     "_posts/2024-04-26-LeetCode - 88. Merge Sorted Array.md",
     "backup/first diving.md",
-    "node_modules/es-abstract/README.md",
-    "node_modules/es-abstract/CHANGELOG.md",
-    "node_modules/typescript/SECURITY.md",
-    "node_modules/typescript/README.md",
-    "node_modules/lodash/README.md",
-    "node_modules/lodash/release.md",
-    "node_modules/caniuse-lite/README.md",
-    "node_modules/moment/README.md",
-    "node_modules/moment/CHANGELOG.md",
-    "node_modules/stylelint/README.md",
-    "node_modules/lodash-es/release.md",
-    "node_modules/lodash-es/README.md",
     "무제 파일.canvas"
   ]
 }
