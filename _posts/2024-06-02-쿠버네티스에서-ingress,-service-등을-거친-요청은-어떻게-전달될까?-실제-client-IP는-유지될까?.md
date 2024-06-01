@@ -4,9 +4,9 @@
 
 그렇게 쉽게 사용하다가, 자연스럽게 이런 궁금증이 생겨버렸어요.
 
-> *외부에서의 요청은 최종적으로 ingress에 도달하고, ingress가 pod에 전달하잖아.*
-> *그렇다면 pod 입장에서는.. client(source ip)가 ingress인가?
-> 실제 client IP는 어떻게 처리되고.. 최종적으로 어떻게 응답을 전송하게 되는 거지?*
+> 외부에서의 요청은 최종적으로 ingress에 도달하고, ingress가 pod에 전달하잖아.  
+> 그렇다면 pod 입장에서는.. client(source ip)가 ingress인가?  
+> 실제 client IP는 어떻게 처리되고.. 최종적으로 어떻게 응답을 전송하게 되는 거지?
 
 쿠버네티스 시스템 뿐만 아니라, 이와 같은 구조로 **"라우팅"** 하는 어느 곳에서든 요런 궁금증이 생길 수도 있을 것 같긴 해요.
 
@@ -40,7 +40,8 @@
 > ingress nginx 웹 서버가 요청을 pod으로 전달하기 위해  
 > ingress에서 pod으로 향하는 새로운 패킷이 생성되어 전송될 것이다.  
 > - 이 패킷의 source ip는 ingress ip  
-> - 윗 단의 HTTP에서는 x-forwarded-for 헤더에 client ip와 ingress ip가 기록됨  
+> - 윗 단의 HTTP에서는 x-forwarded-for 헤더에 client ip와 ingress ip가 기록됨
+{: .prompt-tip }
 
 일 거라는 유추가 가능했어요.
 
