@@ -1,0 +1,198 @@
+{
+  "main": {
+    "id": "9d0e9d8adeea93da",
+    "type": "split",
+    "children": [
+      {
+        "id": "f78cd4c447a49b87",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c903590afa0d1f12",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "963ba1ab9ad368ac",
+    "type": "split",
+    "children": [
+      {
+        "id": "97b09c6669ff1b21",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0845d310f9c2be24",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "af7a33684750be38",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#교훈을",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "89a5d0afebfc5cb2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e60661ac7d063a6d",
+    "type": "split",
+    "children": [
+      {
+        "id": "900f14392a432457",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b374f8e8291c06b3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c9d5f6a7f67265f8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2c0ae98e503e04b9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "4633e591635f98bc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "ed5cfefcc4d26c15",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 253.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "c903590afa0d1f12",
+  "lastOpenFiles": [
+    "ready/쿠버네티스에서는 HTTP 요청이 내부 여러 서버에 거쳐서 전달되는데, 실제 client IP는 어디에 저장될까?.md",
+    "ready/쿠버네티스에서는 HTTP 요청이 내부 여러 서버에 거쳐서 전달되는데, 실제 client IP는 어디에 저자.md",
+    "ready/쿠버네티스 내부에서 HTTP 요청이 여러 번 거쳐서 전달되는데, 실제로 요청한 client IP는 어디에 저장될까.md",
+    "ready/쿠버네티스 내부에서는 HTTP 요청이 많이 proxy 되는데, 실제로 요청한 client IP는 어디에 저장될까?.md",
+    "worldbright.github.io/tools/test",
+    "worldbright.github.io/tools/run",
+    "worldbright.github.io/tools/release",
+    "worldbright.github.io/tools/init",
+    "worldbright.github.io/tools",
+    "worldbright.github.io/rollup.config.js",
+    "worldbright.github.io/package.json",
+    "worldbright.github.io/package-lock.json",
+    "worldbright.github.io/jekyll-theme-chirpy.gemspec",
+    "worldbright.github.io/index.html",
+    "worldbright.github.io/backup/leetcode-start.md",
+    "worldbright.github.io/backup/leetcode-88.md",
+    "worldbright.github.io/backup/first diving.md",
+    "worldbright.github.io/assets/img/favicons/mstile-150x150.png",
+    "worldbright.github.io/assets/img/favicons/favicon-32x32.png",
+    "worldbright.github.io/assets/img/favicons/favicon-16x16.png",
+    "worldbright.github.io/assets/img/favicons/apple-touch-icon.png",
+    "worldbright.github.io/assets/img/favicons/android-chrome-512x512.png",
+    "worldbright.github.io/assets/img/favicons/android-chrome-192x192.png",
+    "worldbright.github.io/assets/img/2024-04-27-leetcode-88/Pasted-image-20240427200615.png",
+    "worldbright.github.io/assets/img/2024-04-27-leetcode-start/Pasted-image-20240427202703.png",
+    "worldbright.github.io/assets/img/2024-04-27-leetcode-88/Pasted-image-20240427201732.png",
+    "worldbright.github.io/assets/img/2024-04-27-leetcode-88/Pasted-image-20240427200246.png",
+    "worldbright.github.io/_tabs/tags.md",
+    "worldbright.github.io/_tabs/archives.md",
+    "worldbright.github.io/_tabs/about.md",
+    "worldbright.github.io/_tabs/categories.md",
+    "worldbright.github.io/_posts/2024-04-27-leetcode-start.md",
+    "worldbright.github.io/_posts/2024-04-27-leetcode-88.md",
+    "worldbright.github.io/_posts/2024-04-26-first-diving.md",
+    "_posts/2024-04-27-leetcode-88.md",
+    "_posts/2024-04-27-leetcode-start.md",
+    "ready/2024-04-27-leetcode-88.md",
+    "backup/leetcode-88.md",
+    "backup/leetcode-start.md",
+    "ready/2024-04-27-leetcode-start.md",
+    "2024-04-27.md",
+    "_posts/2024-04-26-first-diving.md",
+    "().md",
+    "code-try-2.md",
+    "code.md",
+    "무제 파일.canvas"
+  ]
+}
