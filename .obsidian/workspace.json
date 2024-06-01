@@ -138,11 +138,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 463.5
+    "width": 253.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -154,7 +154,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "64da8bcd896c2e8b",
+  "active": "4633e591635f98bc",
   "lastOpenFiles": [
     "_site/posts/leetcode-88/index.html",
     "_site/posts/leetcode-88",

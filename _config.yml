@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: 궁금증 딥다이빙 # the main title
 
-tagline: 궁금한게 너무 많아. <br />아래로 딥하게 다이빙! # it will display as the sub-title
+tagline: 궁금한게 너무 많아 # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   궁금해
