@@ -9,7 +9,7 @@ tags:
   - x-forwarded-for
 ---
 
-# 개요
+## 개요
 
 사내 인프라 팀 덕분에 많은 자동화 처리가 되어 있어서, 쿠버네티스를 너무나도 쉽고 간편하게 web ui를 통해 쓸 수 있었어요. 작동방식이나 원리, 설정파일 등에 대해서 전혀 몰라도 10분이면 deployment, service, ingress를 설정해서 spring boot 앱을 replica 여러 개 띄우고 도메인을 연결해둘 수 있죠.
 
@@ -23,7 +23,7 @@ tags:
 
 쿠버네티스 시스템의 이해가 어느 정도 있는 상태였지만,, 이 질문이 머릿속에 맴돌기 시작하면서 갑자기 개념들이 너무 헷갈리기 시작했고, 이 질문에 대한 해답을 찾기 위해 생각하는 과정에서 파도 파도 끝이 없는 다양한 새로운 질문들이 떠오르기 시작했어요.
 
-# 해답을 위한 의식의 흐름
+## 해답을 위한 의식의 흐름
 
 일단은 질문의 해답을 찾기 위한 고군분투.. 의식의 흐름을 적어보면..
 
@@ -58,7 +58,7 @@ tags:
 
 이 유추를 바탕으로 정리해보면 결론이 나오죠!
 
-# 결론
+## 결론
 
 1. client <-> ingress 통신
 	- ingress nginx 웹 서버가 통신
@@ -87,14 +87,14 @@ tags:
 
 궁금한 것, 알고 싶은 것이 너무나도 많지만~~~ 그러기엔 내부 depth가 너무 많아!!!
 
-## 참고
+### 참고
 
 - x-forwarded-for 혹은 x-real-ip에 관한 여러가지 ingress 설정이 있다.
 	- externalTrafficPolicy
 	- use-proxy-protocol
 	- 자세한 설명은 [https://blog.barogo.io/%EC%A7%84%EC%A7%9C-source-ip-%EB%A5%BC-pod-%EA%B9%8C%EC%A7%80-%EC%A0%9C%EB%8C%80%EB%A1%9C-%EC%A0%84%EB%8B%AC-%ED%95%98%EA%B8%B0-%EC%9C%84%ED%95%9C-%EC%82%BD%EC%A7%88%EA%B8%B0-2e928a5f9e3e](https://blog.barogo.io/%EC%A7%84%EC%A7%9C-source-ip-%EB%A5%BC-pod-%EA%B9%8C%EC%A7%80-%EC%A0%9C%EB%8C%80%EB%A1%9C-%EC%A0%84%EB%8B%AC-%ED%95%98%EA%B8%B0-%EC%9C%84%ED%95%9C-%EC%82%BD%EC%A7%88%EA%B8%B0-2e928a5f9e3e) 에서 확인할 수 있다.
 
-## reference
+### reference
 
 - [https://weng-albert.medium.com/understanding-the-basics-of-internal-networking-in-kubernetes-dfc27beef60d](https://weng-albert.medium.com/understanding-the-basics-of-internal-networking-in-kubernetes-dfc27beef60d)
 - [https://medium.com/finda-tech/kubernetes-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%A0%95%EB%A6%AC-fccd4fd0ae6](https://medium.com/finda-tech/kubernetes-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%A0%95%EB%A6%AC-fccd4fd0ae6)
