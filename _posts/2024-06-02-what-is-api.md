@@ -44,5 +44,4 @@ API라는 용어는 웹 환경이 탄생하기 훨씬 이전인 1960년대부터
 - [https://en.wikipedia.org/wiki/API](https://en.wikipedia.org/wiki/API){:target="blank"}
 - [https://aws.amazon.com/ko/what-is/api/](https://aws.amazon.com/ko/what-is/api/){:target="blank"}
 - [https://ko.wikipedia.org/wiki/%EC%9B%B9_API](https://ko.wikipedia.org/wiki/%EC%9B%B9_API){:target="blank"}
-- [https://ko.wikipedia.org/wiki/%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4_(%EC%BB%B4%ED%93%A8%ED%8C%85)](https://ko.wikipedia.org/wiki/%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4_(%EC%BB%B4%ED%93%A8%ED%8C%85)){:target="blank"}
 - [https://ko.wikipedia.org/wiki/REST](https://ko.wikipedia.org/wiki/REST){:target="blank"}
