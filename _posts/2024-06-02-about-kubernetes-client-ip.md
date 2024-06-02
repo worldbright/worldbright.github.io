@@ -96,11 +96,11 @@ tags:
 - x-forwarded-for 혹은 x-real-ip에 관한 여러가지 ingress 설정이 있다.
 	- externalTrafficPolicy
 	- use-proxy-protocol
-	- 자세한 설명은 [https://blog.barogo.io/%EC%A7%84%EC%A7%9C-source-ip-%EB%A5%BC-pod-%EA%B9%8C%EC%A7%80-%EC%A0%9C%EB%8C%80%EB%A1%9C-%EC%A0%84%EB%8B%AC-%ED%95%98%EA%B8%B0-%EC%9C%84%ED%95%9C-%EC%82%BD%EC%A7%88%EA%B8%B0-2e928a5f9e3e](https://blog.barogo.io/%EC%A7%84%EC%A7%9C-source-ip-%EB%A5%BC-pod-%EA%B9%8C%EC%A7%80-%EC%A0%9C%EB%8C%80%EB%A1%9C-%EC%A0%84%EB%8B%AC-%ED%95%98%EA%B8%B0-%EC%9C%84%ED%95%9C-%EC%82%BD%EC%A7%88%EA%B8%B0-2e928a5f9e3e) 에서 확인할 수 있다.
+	- 자세한 설명은 [https://blog.barogo.io/%EC%A7%84%EC%A7%9C-source-ip-%EB%A5%BC-pod-%EA%B9%8C%EC%A7%80-%EC%A0%9C%EB%8C%80%EB%A1%9C-%EC%A0%84%EB%8B%AC-%ED%95%98%EA%B8%B0-%EC%9C%84%ED%95%9C-%EC%82%BD%EC%A7%88%EA%B8%B0-2e928a5f9e3e](https://blog.barogo.io/%EC%A7%84%EC%A7%9C-source-ip-%EB%A5%BC-pod-%EA%B9%8C%EC%A7%80-%EC%A0%9C%EB%8C%80%EB%A1%9C-%EC%A0%84%EB%8B%AC-%ED%95%98%EA%B8%B0-%EC%9C%84%ED%95%9C-%EC%82%BD%EC%A7%88%EA%B8%B0-2e928a5f9e3e){:target="_blank"} 에서 확인할 수 있다.
 
 ### reference
 
-- [https://weng-albert.medium.com/understanding-the-basics-of-internal-networking-in-kubernetes-dfc27beef60d](https://weng-albert.medium.com/understanding-the-basics-of-internal-networking-in-kubernetes-dfc27beef60d)
-- [https://medium.com/finda-tech/kubernetes-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%A0%95%EB%A6%AC-fccd4fd0ae6](https://medium.com/finda-tech/kubernetes-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%A0%95%EB%A6%AC-fccd4fd0ae6)
-- [https://kubernetes.io/ko/docs/concepts/services-networking/ingress/](https://kubernetes.io/ko/docs/concepts/services-networking/ingress/)
-- [https://kubernetes.io/ko/docs/concepts/services-networking/dns-pod-service/](https://kubernetes.io/ko/docs/concepts/services-networking/dns-pod-service/)
+- [https://weng-albert.medium.com/understanding-the-basics-of-internal-networking-in-kubernetes-dfc27beef60d](https://weng-albert.medium.com/understanding-the-basics-of-internal-networking-in-kubernetes-dfc27beef60d){:target="_blank"}
+- [https://medium.com/finda-tech/kubernetes-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%A0%95%EB%A6%AC-fccd4fd0ae6](https://medium.com/finda-tech/kubernetes-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%A0%95%EB%A6%AC-fccd4fd0ae6){:target="_blank"}
+- [https://kubernetes.io/ko/docs/concepts/services-networking/ingress/](https://kubernetes.io/ko/docs/concepts/services-networking/ingress/){:target="_blank"}
+- [https://kubernetes.io/ko/docs/concepts/services-networking/dns-pod-service/](https://kubernetes.io/ko/docs/concepts/services-networking/dns-pod-service/){:target="_blank"}
