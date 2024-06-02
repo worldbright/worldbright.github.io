@@ -41,16 +41,19 @@ tags:
 		- 3) netfliter가 service로 인해 설정된 규칙에 의해 service ip를 pod ip로 전송하게 변경
 5. 그럼.. 결국 ingress는 pod ip와 직접 통신하게 되는 것이구나.
 6. HTTP 프로토콜로 통신한다고 했을 때.. client -> ingress 와 ingress -> pod 이 두 개의 요청에서 실제 client ip는 어떻게 처리되는 거지?
-	- 요청이 proxy되는 상황에서는 x-forwarded-for 이라는 표준 HTTP 헤더에 실제 client ip를 기록한다. x-forwarded-for: client-ip, proxy-ip1, proxy-ip2 이렇게 proxy될 때 마다 뒤에 해당 ip를 붙여 쓴다. (면밀히 말하면 표준 헤더는 아니지만, 공공연히 표준처럼 쓰이고 있다. 왜 표준이 아닌데 표준처럼 쓰이고 있는 건지...? 이거는 나중에 좀 알아보고 포스팅 해봐야겠어요.)
+	- 요청이 proxy되는 상황에서는 x-forwarded-for 이라는 표준 HTTP 헤더에 실제 client ip를 기록한다.
+		- x-forwarded-for: client-ip, proxy-ip1, proxy-ip2
+		  이렇게 proxy될 때 마다 뒤에 해당 ip를 붙여 쓴다. (면밀히 말하면 표준 헤더는 아니지만, 공공연히 표준처럼 쓰이고 있다. 왜 표준이 아닌데 표준처럼 쓰이고 있는 건지...? 이거는 나중에 좀 알아보고 포스팅 해봐야겠어요.)
+		- ingress는 nginx 웹 서버이고, nginx 웹 서버는 기본적으로 x-forwarded-for을 기록하게 되어 있다. 설정으로 해당 기록에 대해서 컨트롤할 수 있다.
 	- 따라서 pod에서는 http x-forwarded-for 헤더를 확인하면 실제 client ip를 확인할 수 있다.
 
 쿠버네티스 내부 네트워킹 원리에 대해 잘 파악하고 있지 못한 상태에서.. 많은 검색과 쿠버네티스 공식 레퍼런스를 뒤져본 끝에 위의 내용을 파악할 수 있었어요.
 
 위에서 파악한 내용에 의해서
 
-> ingress nginx 웹 서버가 요청을 pod으로 전달하기 위해  
-> ingress에서 pod으로 향하는 새로운 패킷이 생성되어 전송될 것이다.  
-> - 이 패킷의 source ip는 ingress ip  
+> client -> ingress 로 요청이 도달하면, ingress nginx 웹 서버는 해당 요청을 pod으로 전달해야 한다.
+> 따라서 ingress에서 pod으로 향하는 새로운 패킷이 생성되어 전송될 것이다.  
+> - 이 패킷의 source ip는 ingress ip, dest ip는 pod ip
 > - 윗 단의 HTTP에서는 x-forwarded-for 헤더에 client ip와 ingress ip가 기록됨
 {: .prompt-tip }
 
@@ -61,11 +64,12 @@ tags:
 ## 결론
 
 1. client <-> ingress 통신
-	- ingress nginx 웹 서버가 통신
+	- ingress nginx 웹 서버와 client가 통신
 	- client 입장에서는 ingress ip와 직접 통신하는 것으로 인식
+	- 패킷의 source ip는 client로 잡힘
 	- HTTP header에 x-forwarded-for은 없는 상태
 2. ingress <-> pod 통신
-	- ingress nginx 웹 서버가 요청을 받으면, 다시 pod ip로 전송
+	- ingress nginx 웹 서버와 pod가 통신
 		- dns 통해 service name -> service ip로 변환 후 service ip로 전송
 		- kube-proxy에 의해 설정된 netfliter가 service ip에 매핑된 pod ip로 전송해줌
 	- 패킷의 source ip는 ingress로 잡힘
