@@ -25,7 +25,7 @@ Application Programming Interface. 애플리케이션 프로그래밍 인터페�
 
 - [REST API](https://ko.wikipedia.org/wiki/REST){:target="blank"}
 - [GraphQL API](https://ko.wikipedia.org/wiki/GraphQL){:target="blank"}
-- [자바 API](https://docs.oracle.com/en/java/javase/16/docs/api/index.html](https://docs.oracle.com/en/java/javase/21/docs/api/index.html){:target="blank"}
+- [자바 API](https://docs.oracle.com/en/java/javase/21/docs/api/index.html){:target="blank"}
 - [윈도우 API](https://ko.wikipedia.org/wiki/%EC%9C%88%EB%8F%84%EC%9A%B0_API){:target="blank"}
 
 첫번째의 REST API가 우리가 흔히 사용하고 있는 웹 서버 API를 의미한다고 볼 수 있죠.  
