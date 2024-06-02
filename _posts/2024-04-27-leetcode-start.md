@@ -2,7 +2,7 @@
 title: LeetCode에 딥 다이빙.
 categories:
   - Leet Code
-  - Free
+  - Leet Code Free
 tags:
   - LeetCode
 date: 2024-04-27T17:06:00+0900
