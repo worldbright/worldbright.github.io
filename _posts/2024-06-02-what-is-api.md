@@ -40,7 +40,7 @@ API라는 용어는 웹 환경이 탄생하기 훨씬 이전인 1960년대부터
 그래도 API라는 용어의 본래 뜻을 알고 쓰는 것과 모르고 쓰는 것은 차이가 있는 것 같아요. 저도 이 글을 작성하면서 자바 API, 윈도우 API 등 몇 번 들어본 용어긴 했지만 다시 한 번 살펴보며 정확한 의미를 알게 되어서 시각과 관점이 넓혀진 것 같네요!
 
 ## reference
-
+z
 - [https://en.wikipedia.org/wiki/API](https://en.wikipedia.org/wiki/API){:target="blank"}
 - [https://aws.amazon.com/ko/what-is/api/](https://aws.amazon.com/ko/what-is/api/){:target="blank"}
 - [https://ko.wikipedia.org/wiki/%EC%9B%B9_API](https://ko.wikipedia.org/wiki/%EC%9B%B9_API){:target="blank"}
