@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-06-16-morgon-og-kveld.md",
+                "file": "_posts/2024-06-16-2024-06-16-morgon-og-kveld.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-06-16-morgon-og-kveld.md",
+                "file": "_posts/2024-06-16-2024-06-16-morgon-og-kveld.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-06-16-morgon-og-kveld.md",
+                "file": "_posts/2024-06-16-2024-06-16-morgon-og-kveld.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-06-16-morgon-og-kveld.md"
+                "file": "_posts/2024-06-16-2024-06-16-morgon-og-kveld.md"
               }
             }
           }
@@ -148,14 +148,21 @@
   },
   "active": "d27490454e9e5f0f",
   "lastOpenFiles": [
+    "attachments/Pasted image 20240616234846.png",
+    "ready/2024-06-16-2024-06-16-morgon-og-kveld.md",
+    "_posts/2024-06-16-2024-06-16-morgon-og-kveld.md",
+    "assets/img/2024-06-16-2024-06-16-morgon-og-kveld/Pasted-image-20240616234846.png",
+    "assets/img/2024-06-16-2024-06-16-morgon-og-kveld",
+    "backup/2024-06-16-morgon-og-kveld.md",
+    "Pasted image 20240616234727.png",
+    "assets/Pasted image 20240616234634.png",
+    "_posts/2024-04-26-first-diving.md",
+    "assets/img/2024-06-16-morgon-og-kveld",
+    "_posts/2024-04-27-leetcode-start.md",
+    "_posts/2024-04-27-leetcode-88.md",
+    "_posts/2024-06-02-about-kubernetes-client-ip.md",
     "_posts/2024-06-02-what-is-api.md",
     "_posts/2024-06-09-leetcode-27-Remove-Element.md",
-    "_posts/2024-06-16-morgon-og-kveld.md",
-    "_posts/2024-04-27-leetcode-88.md",
-    "_posts/2024-04-27-leetcode-start.md",
-    "_posts/2024-06-02-about-kubernetes-client-ip.md",
-    "_posts/2024-04-26-first-diving.md",
-    "ready/2024-06-16-morgon-og-kveld.md",
     "backup/morgon og kveld.md",
     "ready/2024-06-09-leetcode-27-Remove-Element.md",
     "backup/leetcode 27 Remove Element.md",
