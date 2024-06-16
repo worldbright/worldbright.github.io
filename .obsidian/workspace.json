@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-06-09-leetcode-27-Remove-Element.md",
+                "file": "_posts/2024-06-16-morgon-og-kveld.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-06-09-leetcode-27-Remove-Element.md",
+                "file": "_posts/2024-06-16-morgon-og-kveld.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-06-09-leetcode-27-Remove-Element.md",
+                "file": "_posts/2024-06-16-morgon-og-kveld.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-06-09-leetcode-27-Remove-Element.md"
+                "file": "_posts/2024-06-16-morgon-og-kveld.md"
               }
             }
           }
@@ -148,17 +148,20 @@
   },
   "active": "d27490454e9e5f0f",
   "lastOpenFiles": [
-    "_posts/2024-04-27-leetcode-88.md",
+    "_posts/2024-06-02-what-is-api.md",
     "_posts/2024-06-09-leetcode-27-Remove-Element.md",
+    "_posts/2024-06-16-morgon-og-kveld.md",
+    "_posts/2024-04-27-leetcode-88.md",
     "_posts/2024-04-27-leetcode-start.md",
+    "_posts/2024-06-02-about-kubernetes-client-ip.md",
+    "_posts/2024-04-26-first-diving.md",
+    "ready/2024-06-16-morgon-og-kveld.md",
+    "backup/morgon og kveld.md",
     "ready/2024-06-09-leetcode-27-Remove-Element.md",
     "backup/leetcode 27 Remove Element.md",
-    "_posts/2024-06-02-about-kubernetes-client-ip.md",
     "접근-1.md",
-    "_posts/2024-06-02-what-is-api.md",
     "ready/2024-06-02-API란?.md",
     "backup/API란?.md",
-    "_posts/2024-04-26-first-diving.md",
     "ready/2024-06-02-쿠버네티스에서-ingress,-service-등을-거친-요청은-어떻게-전달될까?-실제-client-IP는-유지될까?.md",
     "backup/쿠버네티스에서 ingress, service 등을 거친 요청은 어떻게 전달될까? 실제 client IP는 유지될까?.md",
     "attachments",
