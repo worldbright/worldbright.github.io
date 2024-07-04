@@ -9,14 +9,15 @@ tags:
   - Google
 ---
 
-<div style="clear:left;text-align:left;overflow:hidden;"><div style="float:left;margin:0 15px 5px 0;"><a href="https://www.yes24.com/Product/Goods/109182479" style="display:inline-block;overflow:hidden;border:solid 1px #ccc;" target="_blank"><img style="margin:-1px;vertical-align:top;" src="//image.yes24.com/goods/109182479/M" border="0" alt="구글 엔지니어는 이렇게 일한다 "></a></div><div><p style="line-height:1.2em;color:#333;font-size:14px;font-weight:bold;">구글 엔지니어는 이렇게 일한다 </p><p style="margin-top:5px;line-height:1.2em;color:#666;"><a href="https://www.yes24.com/Product/Search?domain=ALL&query=타이터스 윈터스&authorNo=390367&author=타이터스 윈터스" target="_blank">타이터스 윈터스</a>, <a href="https://www.yes24.com/Product/Search?domain=ALL&query=톰 맨쉬렉&authorNo=390368&author=톰 맨쉬렉" target="_blank">톰 맨쉬렉</a>, <a href="https://www.yes24.com/Product/Search?domain=ALL&query=하이럼 라이트&authorNo=390370&author=하이럼 라이트" target="_blank">하이럼 라이트</a> 저/<a href="https://www.yes24.com/Product/Search?domain=ALL&query=개앞맵시&authorNo=237808&author=개앞맵시" target="_blank">개앞맵시</a> 역</p><p style="margin-top:14px;line-height:1.5em;text-align:justify;color:#999;">구글은 어떻게 개발하고 코드를 관리하는가지난 50년의 세월과 이 책이 입증한 사실이 한 가지 있다. 바로 &#39;소프트웨어 엔지니어링의 발전은 결코 정체되지 않는다&#39;라는 것이다. 빠른 기술 변화 속에서 소프트웨어 엔지니어링의 중요성이 더욱 강조되면서 소프트웨어 엔지니어의 역할은 점점 더 확장될 것이다. 이...</p></div></div>
-
----
-
 ## 개요
 
 회사 동료분께 추천받아 읽게 된 책이에요. 생각보다 너무나 많은 양질의 내용들이 들어있어서 너무 좋았어요. 커뮤니케이션 스킬, 좋은 매니징 방법 등 조직 문화와 사회생활부터 코드 스타일, 코드 리뷰, 좋은 테스트 코드, 문서화 등 디테일한 업무 스킬까지.. 읽으면서 배울 점도 많았지만 스스로 생각해볼 거리도 너무나 많이 던져주는 책이었어요. 몇 문단 읽다가 생각해보게 되고, 몇 문단 읽다가 다시 이전으로 돌아가서 생각하고. 내 경험과 연결지어서 생각을 많이 해보게 되어서, 읽는 시간이 엄청 길어졌어요. 출퇴근 시간에 짬내서 읽다보니 두 달 정도 걸렸던 것 같아요.
 
+---
+
+<div style="clear:left;text-align:left;overflow:hidden;"><div style="float:left;margin:0 15px 5px 0;"><a href="https://www.yes24.com/Product/Goods/109182479" style="display:inline-block;overflow:hidden;border:solid 1px #ccc;" target="_blank"><img style="margin:-1px;vertical-align:top;" src="//image.yes24.com/goods/109182479/M" border="0" alt="구글 엔지니어는 이렇게 일한다 "></a></div><div><p style="line-height:1.2em;color:#333;font-size:14px;font-weight:bold;">구글 엔지니어는 이렇게 일한다 </p><p style="margin-top:5px;line-height:1.2em;color:#666;"><a href="https://www.yes24.com/Product/Search?domain=ALL&query=타이터스 윈터스&authorNo=390367&author=타이터스 윈터스" target="_blank">타이터스 윈터스</a>, <a href="https://www.yes24.com/Product/Search?domain=ALL&query=톰 맨쉬렉&authorNo=390368&author=톰 맨쉬렉" target="_blank">톰 맨쉬렉</a>, <a href="https://www.yes24.com/Product/Search?domain=ALL&query=하이럼 라이트&authorNo=390370&author=하이럼 라이트" target="_blank">하이럼 라이트</a> 저/<a href="https://www.yes24.com/Product/Search?domain=ALL&query=개앞맵시&authorNo=237808&author=개앞맵시" target="_blank">개앞맵시</a> 역</p><p style="margin-top:14px;line-height:1.5em;text-align:justify;color:#999;">구글은 어떻게 개발하고 코드를 관리하는가지난 50년의 세월과 이 책이 입증한 사실이 한 가지 있다. 바로 &#39;소프트웨어 엔지니어링의 발전은 결코 정체되지 않는다&#39;라는 것이다. 빠른 기술 변화 속에서 소프트웨어 엔지니어링의 중요성이 더욱 강조되면서 소프트웨어 엔지니어의 역할은 점점 더 확장될 것이다. 이...</p></div></div>
+
+---
 ## 정적이던 머릿속을 휘젓는 느낌
 
 읽으면서 되게 머리가 신선해지는 느낌이었어요. 항상 자연스럽고 당연하게 생각하고 있던 개념들을 콕 한 번 짚어주거나, 니가 생각하는 건 좀.. 틀리단다~? 하고 알려주는 느낌이었어요.
