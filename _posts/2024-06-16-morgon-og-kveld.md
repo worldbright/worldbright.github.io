@@ -2,7 +2,7 @@
 title: 아침 그리고 저녁
 categories:
   - Book
-  - Free
+  - BookFree
 tags:
   - Book
   - BookReview

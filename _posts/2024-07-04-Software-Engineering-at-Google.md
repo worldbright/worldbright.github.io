@@ -1,7 +1,11 @@
 ---
-title: "구글 엔지니어는 이렇게 일한다"
-categories: [Book, Dev]
-tags: [Book, BookReview]
+title: 구글 엔지니어는 이렇게 일한다
+categories:
+  - Book
+  - BookDev
+tags:
+  - Book
+  - BookReview
 ---
 
 <div style="clear:left;text-align:left;overflow:hidden;"><div style="float:left;margin:0 15px 5px 0;"><a href="https://www.yes24.com/Product/Goods/109182479" style="display:inline-block;overflow:hidden;border:solid 1px #ccc;" target="_blank"><img style="margin:-1px;vertical-align:top;" src="//image.yes24.com/goods/109182479/M" border="0" alt="구글 엔지니어는 이렇게 일한다 "></a></div><div><p style="line-height:1.2em;color:#333;font-size:14px;font-weight:bold;">구글 엔지니어는 이렇게 일한다 </p><p style="margin-top:5px;line-height:1.2em;color:#666;"><a href="https://www.yes24.com/Product/Search?domain=ALL&query=타이터스 윈터스&authorNo=390367&author=타이터스 윈터스" target="_blank">타이터스 윈터스</a>, <a href="https://www.yes24.com/Product/Search?domain=ALL&query=톰 맨쉬렉&authorNo=390368&author=톰 맨쉬렉" target="_blank">톰 맨쉬렉</a>, <a href="https://www.yes24.com/Product/Search?domain=ALL&query=하이럼 라이트&authorNo=390370&author=하이럼 라이트" target="_blank">하이럼 라이트</a> 저/<a href="https://www.yes24.com/Product/Search?domain=ALL&query=개앞맵시&authorNo=237808&author=개앞맵시" target="_blank">개앞맵시</a> 역</p><p style="margin-top:14px;line-height:1.5em;text-align:justify;color:#999;">구글은 어떻게 개발하고 코드를 관리하는가지난 50년의 세월과 이 책이 입증한 사실이 한 가지 있다. 바로 &#39;소프트웨어 엔지니어링의 발전은 결코 정체되지 않는다&#39;라는 것이다. 빠른 기술 변화 속에서 소프트웨어 엔지니어링의 중요성이 더욱 강조되면서 소프트웨어 엔지니어의 역할은 점점 더 확장될 것이다. 이...</p></div></div>
@@ -28,10 +32,12 @@ tags: [Book, BookReview]
 
 책을 읽으면서 저희 조직에서 사용하고 있는 브랜치 전략이 **Git Flow 전략**(feature, hotfix, develop, master 브랜치를 사용하는 전략)이라는 것을 알게되었어요. 조금 검색해보니 Git Flow를 2010년에 처음 제안했던 Vincent Driessen이, 2020년에 와서는 해당 전략을 제안할 때에 웹 앱개발을 염두에 두지 않았다고, 해당 전략은 웹 앱 개발에 적합하지 않다고 했데요.. ...엥?
 
-![image](/assets/img/2024-07-04-Software-Engineering-at-Google/Pasted-image-20240704221113.png){:width="500"}
-_https://nvie.com/posts/a-successful-git-branching-model/_
+![image](/assets/img/2024-07-04-Software-Engineering-at-Google/Pasted-image-20240704221113.png){:width="500"}  
+_[https://nvie.com/posts/a-successful-git-branching-model/](https://nvie.com/posts/a-successful-git-branching-model/){:target="blank"}_
 
-구글은 **트렁크 기반 개발**이라고 부르는 전략을 사용한데요. 메인으로 사용하는 브랜치 단 하나만 두고, 해당 브랜치에만 빠르게 커밋하고 머지하고, 빠르게 실제 환경에 배포하는 방법이죠. Git Flow에서 사용하는 feature브랜치, hotfix브랜치, develop브랜치 등 다양한 브랜치로 인해 관리 포인트가 늘어날 일이 없어요. 대신에... 하나의 브랜치로 관리하다 보니 검증 환경(dev phase) 배포 후 테스트하는 작업을 하기에는 적합하지 않을 것 같아요. 바로바로 운영환경에 배포되어 버리니깐요. 하지만 그만큼 완벽한 테스트 코드와 자동 검증/빌드/배포 환경이 갖추어져 있다면 정말 편리하고 빠른 개발이 가능할 것 같아요!! 대규모 브랜치와, 실 배포 일정이 자꾸 미루어져 develop에만 배포되어 있는 기능 브랜치와, 대규모 merge conflict 등... 해당 문제로 골치 아플 때가 많았는데.. 하나의 브랜치로 완벽한 테스트 CI/CD와 함께 지속되는 구글의 VCS.. 언젠가는 저도 경험해보고.......싶습니다.
+구글은 **트렁크 기반 개발**이라고 부르는 전략을 사용한데요. 메인으로 사용하는 브랜치 단 하나만 두고, 해당 브랜치에만 빠르게 커밋하고 머지하고, 빠르게 실제 환경에 배포하는 방법이죠.  
+Git Flow에서 사용하는 feature브랜치, hotfix브랜치, develop브랜치 등 다양한 브랜치로 인해 관리 포인트가 늘어날 일이 없어요. 대신에... 하나의 브랜치로 관리하다 보니 검증 환경(dev phase) 배포 후 테스트하는 작업을 하기에는 적합하지 않을 것 같아요. 바로바로 운영환경에 배포되어 버리니깐요. 하지만 그만큼 완벽한 테스트 코드와 자동 검증/빌드/배포 환경이 갖추어져 있다면 정말 편리하고 빠른 개발이 가능할 것 같아요!!  
+대규모 브랜치와, 실 배포 일정이 자꾸 미루어져 develop에만 배포되어 있는 기능 브랜치와, 대규모 merge conflict 등... 해당 문제로 골치 아플 때가 많았는데.. 하나의 브랜치로 완벽한 테스트 CI/CD와 함께 지속되는 구글의 VCS.. 언젠가는 저도 경험해보고.......싶습니다.
 
 ### 3. 사내 모든 코드를 하나의 repository에 저장
 
