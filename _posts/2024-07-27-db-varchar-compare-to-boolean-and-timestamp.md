@@ -13,7 +13,7 @@ tags:
 ## 개요
 
 제가 속한 회사 내 조직에서는 postgresql을 기본 rdbms로 채택해서 사용하고 있고,  
-boolean 또는 datetime 형식의 컬럼들을 아래와 같은 방식으로 사용하고 있어요.
+boolean 또는 timestamp 형식의 컬럼들을 아래와 같은 방식으로 사용하고 있어요.
 
 1. **boolean 값 표현**
 	- ```varchar(1) default 'Y' not null```
