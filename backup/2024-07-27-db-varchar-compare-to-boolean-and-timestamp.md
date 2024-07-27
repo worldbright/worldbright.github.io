@@ -1,7 +1,13 @@
 ---
-title: "DB varchar(1) vs boolean, varchar(14) vs timestamp 에 관한 고찰"
-categories: [Deep Diving, Database]
-tags: [Database, Postgresql, mysql, oracle]
+title: DB varchar(1) vs boolean, varchar(14) vs timestamp 에 관한 고찰
+categories:
+  - Deep Diving
+  - Database
+tags:
+  - Database
+  - Postgresql
+  - mysql
+  - oracle
 ---
 
 ## 1. 개요
@@ -39,7 +45,7 @@ boolean을 예시로 설명했지만, datetime도 마찬가지! postgresql, mysq
 **그래서 제가 생각하기에,**
 
 > 각각의 RDBMS가 제공하는 자료형들을 따로 따로 활용하는 것이 아니라  
-> 모든 RDBMS가 공통적으로 가지는 **varchar** 타입을 사용함으로서  
+> 모든 RDBMS가 공통적으로 가지는 **varchar** 타입을 사용함으로서
 > **여러 DB로** 전송되는 쿼리의 **스타일을 통일하고** 가독성을 높이고 사용성을 높이려 한 것이다.
 
 하는 결론에 도달했어요. 이렇게 생각하고 보니,, 꽤 괜찮은 답변 같기도 해요!!?
@@ -53,7 +59,7 @@ boolean을 예시로 설명했지만, datetime도 마찬가지! postgresql, mysq
 > 모든 varchar(1) 컬럼들을 boolean 자료형으로, varchar(14) 컬럼들을 timestamp 자료형으로 변환한다.  
 > 라는 큰 작업을 할 만큼 성능에 이점이 있을까? 
 
-하는 생각도 들었어요.  
+하는 생각도 들었어요.
 너무 어려운 질문인 것 같긴 해요.. 저울질을 얼만큼의 강도로 해야할지...
 
 그래서 일단은 눈으로 직접 확인해보고 싶어서, 로컬에서 postgresql을 띄우고 데이터를 구성한 후 쿼리 실행 성능을 측정해봤어요.
@@ -279,7 +285,7 @@ where timestamp_char = '20240901000000'
 varchar(1)이 좋을까, boolean이 좋을까... varchar(14)가 좋을까, timestamp가 좋을까... 라는, 성능의 관점에서 간단한 궁금증으로 조사를 시작했지만, 자꾸 곱씹어보니 성능만이 중요한 것이 아니라는 생각이 점점 들었어요.
 
 1. **기존 정책 유지 및 안정성 vs 성능 및 legacy 제거**
-	- [3. 정책 유지 vs performance 저울질...](#3.-정책-유지-vs-performance-저울질...) 에서 부터 고민했듯이, 결국에는 기존 정책과 성능 업그레이드의 트레이드 오프 문제가 쟁점인 것 같아요.
+	- [[#3. 정책 유지 vs performance 저울질...]] 에서 부터 고민했듯이, 결국에는 기존 정책과 성능 업그레이드의 트레이드 오프 문제가 쟁점인 것 같아요.
 	- 간단히 말하면 아래 두 가지 의견의 충돌이죠.
 		- **1. 큰 문제 없이 지금도 동작하고 있는데 안정성을 해치며 굳이 업그레이드를 해야 하나!?**
 		- **2. 나중에는 일이 커진다. 기술 부채를 만들지 말고 legacy를 제거하자!**
