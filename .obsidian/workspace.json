@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-07-08-leetcode-169-Majority-Element.md",
+                "file": "_posts/2024-07-27-db-varchar-compare-to-boolean-and-date-format.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-07-08-leetcode-169-Majority-Element.md",
+                "file": "_posts/2024-07-27-db-varchar-compare-to-boolean-and-date-format.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-07-08-leetcode-169-Majority-Element.md",
+                "file": "_posts/2024-07-27-db-varchar-compare-to-boolean-and-date-format.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-07-08-leetcode-169-Majority-Element.md"
+                "file": "_posts/2024-07-27-db-varchar-compare-to-boolean-and-date-format.md"
               }
             }
           }
@@ -148,23 +148,25 @@
   },
   "active": "d27490454e9e5f0f",
   "lastOpenFiles": [
-    "_posts/2024-04-27-leetcode-88.md",
+    "_posts/2024-06-02-about-kubernetes-client-ip.md",
+    "ready/2024-07-27-rdbms-varchar-compare-to-boolean-and-date-format.md",
+    "_posts/2024-07-27-db-varchar-compare-to-boolean-and-date-format.md",
+    "backup/rdbms varchar compare to boolean and date format.md",
+    "_posts/2024-06-02-what-is-api.md",
+    "_posts/2024-06-09-leetcode-27-Remove-Element.md",
+    "_posts/2024-06-16-morgon-og-kveld.md",
+    "_posts/2024-07-04-Software-Engineering-at-Google.md",
     "_posts/2024-07-08-leetcode-169-Majority-Element.md",
     "_posts/2024-07-06-leetcode-80-Remove-Duplicates-from-Sorted-Array-2.md",
+    "_posts/2024-04-27-leetcode-88.md",
     "ready/2024-07-08-leetcode-169-Majority-Element.md",
     "assets/img/2024-07-08-leetcode-169-Majority-Element/Pasted-image-20240708231036.png",
     "assets/img/2024-07-08-leetcode-169-Majority-Element",
     "backup/leetcode-169-Majority-Element.md",
     "_posts/2024-07-05-leetcode-26-Remove-Duplicates-from-Sorted-Array.md",
-    "_posts/2024-07-04-Software-Engineering-at-Google.md",
     "_posts/2024-04-26-first-diving.md",
     "_posts/2024-04-27-leetcode-start.md",
-    "_posts/2024-06-02-about-kubernetes-client-ip.md",
-    "_posts/2024-06-02-what-is-api.md",
-    "_posts/2024-06-09-leetcode-27-Remove-Element.md",
-    "_posts/2024-06-16-morgon-og-kveld.md",
     "attachments/Pasted image 20240708231036.png",
-    "ready/Untitled.md",
     "ready/2024-07-06-2024-07-05-leetcode-80-Remove-Duplicates-from-Sorted-Array-2.md",
     "backup/2024-07-05-leetcode-80 Remove Duplicates from Sorted Array 2.md",
     "ready/2024-07-05-leetcode-26-Remove-Duplicates-from-Sorted-Array.md",
@@ -184,8 +186,6 @@
     "assets/img/2024-06-16-morgon-og-kveld",
     "backup/morgon og kveld.md",
     "ready/2024-06-09-leetcode-27-Remove-Element.md",
-    "backup/leetcode 27 Remove Element.md",
-    "접근-1.md",
     "attachments"
   ]
 }
