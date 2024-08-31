@@ -6,6 +6,7 @@ categories:
 tags:
   - LeetCode
   - TopInterview150
+  - LeetCodeMedium
 ---
 
 ## 문제
