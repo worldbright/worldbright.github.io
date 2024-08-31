@@ -1,7 +1,13 @@
 ---
-title: "LeetCode - 169. Majority Element"
-categories: [Leet Code, Top Interview 150]
-tags: [LeetCode, TopInterview150, MedianOfMedians, MooreMajorityVote]
+title: "[Easy] LeetCode - 169. Majority Element"
+categories:
+  - Leet Code
+  - Top Interview 150
+tags:
+  - LeetCode
+  - TopInterview150
+  - MedianOfMedians
+  - MooreMajorityVote
 ---
 
 ## 문제

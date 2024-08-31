@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-31-leetcode-189-Rotate-Array.md",
+                "file": "_posts/2024-04-27-leetcode-88.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-31-leetcode-189-Rotate-Array.md",
+                "file": "_posts/2024-04-27-leetcode-88.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-08-31-leetcode-189-Rotate-Array.md",
+                "file": "_posts/2024-04-27-leetcode-88.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-08-31-leetcode-189-Rotate-Array.md"
+                "file": "_posts/2024-04-27-leetcode-88.md"
               }
             }
           }
@@ -148,7 +148,10 @@
   },
   "active": "d27490454e9e5f0f",
   "lastOpenFiles": [
+    "_posts/2024-06-09-leetcode-27-Remove-Element.md",
+    "_posts/2024-07-05-leetcode-26-Remove-Duplicates-from-Sorted-Array.md",
     "_posts/2024-07-08-leetcode-169-Majority-Element.md",
+    "_posts/2024-07-06-leetcode-80-Remove-Duplicates-from-Sorted-Array-2.md",
     "_posts/2024-08-31-leetcode-189-Rotate-Array.md",
     "ready/2024-08-31-leetcode-189-Rotate-Array.md",
     "backup/leetcode-189-Rotate-Array.md",
@@ -176,11 +179,8 @@
     "_site/backup/쿠버네티스에서 ingress, service 등을 거친 요청은 어떻게 전달될까? 실제 client IP는 유지될까?.md",
     "_site/backup/rdbms varchar compare to boolean and date format.md",
     "_site/backup/leetcode 27 Remove Element.md",
-    "_posts/2024-07-06-leetcode-80-Remove-Duplicates-from-Sorted-Array-2.md",
     "_posts/2024-07-04-Software-Engineering-at-Google.md",
-    "_posts/2024-07-05-leetcode-26-Remove-Duplicates-from-Sorted-Array.md",
     "_posts/2024-06-16-morgon-og-kveld.md",
-    "_posts/2024-06-09-leetcode-27-Remove-Element.md",
     "_posts/2024-06-02-what-is-api.md",
     "_posts/2024-06-02-about-kubernetes-client-ip.md",
     "ready/2024-07-28-2024-07-27-db-varchar-compare-to-boolean-and-timestamp.md",

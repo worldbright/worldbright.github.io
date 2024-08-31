@@ -1,5 +1,5 @@
 ---
-title: LeetCode - 27. Remove Element
+title: "[Easy] LeetCode - 27. Remove Element"
 categories:
   - Leet Code
   - Top Interview 150

@@ -1,5 +1,5 @@
 ---
-title: LeetCode - 189. Rotate Array
+title: "[Medium] LeetCode - 189. Rotate Array"
 categories:
   - Leet Code
   - Top Interview 150

@@ -1,7 +1,11 @@
 ---
-title: "LeetCode - 80. Remove Duplicates from Sorted Array 2"
-categories: [Leet Code, Top Interview 150]
-tags: [LeetCode, TopInterview150]
+title: "[Medium] LeetCode - 80. Remove Duplicates from Sorted Array 2"
+categories:
+  - Leet Code
+  - Top Interview 150
+tags:
+  - LeetCode
+  - TopInterview150
 ---
 
 ## 문제

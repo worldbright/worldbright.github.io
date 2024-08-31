@@ -1,7 +1,11 @@
 ---
-title: "LeetCode - 26. Remove Duplicates from Sorted Array"
-categories: [Leet Code, Top Interview 150]
-tags: [LeetCode, TopInterview150]
+title: "[Easy] LeetCode - 26. Remove Duplicates from Sorted Array"
+categories:
+  - Leet Code
+  - Top Interview 150
+tags:
+  - LeetCode
+  - TopInterview150
 ---
 
 ## 문제
