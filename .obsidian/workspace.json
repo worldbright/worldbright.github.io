@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-09-01-leetcode-121-Best-Time-to-Buy-and-Sell-Stock.md",
+                "file": "_posts/2024-09-01-leetcode-122-Best-Time-to-Buy-and-Sell-Stock 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-09-01-leetcode-121-Best-Time-to-Buy-and-Sell-Stock.md",
+                "file": "_posts/2024-09-01-leetcode-122-Best-Time-to-Buy-and-Sell-Stock 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-09-01-leetcode-121-Best-Time-to-Buy-and-Sell-Stock.md",
+                "file": "_posts/2024-09-01-leetcode-122-Best-Time-to-Buy-and-Sell-Stock 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-09-01-leetcode-121-Best-Time-to-Buy-and-Sell-Stock.md"
+                "file": "_posts/2024-09-01-leetcode-122-Best-Time-to-Buy-and-Sell-Stock 2.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "d27490454e9e5f0f",
   "lastOpenFiles": [
-    "_posts/2024-08-31-leetcode-189-Rotate-Array.md",
     "_posts/2024-09-01-leetcode-121-Best-Time-to-Buy-and-Sell-Stock.md",
+    "_posts/2024-09-01-leetcode-122-Best-Time-to-Buy-and-Sell-Stock 2.md",
+    "_posts/2024-08-31-leetcode-189-Rotate-Array.md",
     "_posts/2024-07-06-leetcode-80-Remove-Duplicates-from-Sorted-Array-2.md",
     "_posts/2024-07-08-leetcode-169-Majority-Element.md",
     "_posts/2024-04-27-leetcode-88.md",
@@ -192,7 +193,6 @@
     "ready/2024-07-08-leetcode-169-Majority-Element.md",
     "backup/leetcode-169-Majority-Element.md",
     "_posts/2024-04-26-first-diving.md",
-    "_posts/2024-04-27-leetcode-start.md",
-    "ready/2024-07-06-2024-07-05-leetcode-80-Remove-Duplicates-from-Sorted-Array-2.md"
+    "_posts/2024-04-27-leetcode-start.md"
   ]
 }
