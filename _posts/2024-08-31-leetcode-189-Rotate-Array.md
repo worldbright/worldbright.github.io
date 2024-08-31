@@ -51,7 +51,7 @@ Given an integer array `nums`, rotate the array to the right by `k` steps, wh
 ``` cpp
 class Solution {
 public:
-    int process(vector%3Cint%3E& nums, int length, int k) {
+    int process(vector<int>& nums, int length, int k) {
         int cnt = 0;
         for (int i = (length - k) - 1; i >= 0; i--) {
             cnt = ++cnt % k;
