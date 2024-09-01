@@ -1,7 +1,12 @@
 ---
-title: "API 란?"
-categories: [Deep Diving, Basic]
-tags: [API, HTTP, REST-API]
+title: API 란?
+categories:
+  - Basic
+  - Topic
+tags:
+  - API
+  - HTTP
+  - REST-API
 ---
 
 ## 개요

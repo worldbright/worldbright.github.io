@@ -1,7 +1,13 @@
 ---
-title: "DB varchar(1) vs boolean, varchar(14) vs timestamp 에 관한 고찰"
-categories: [Deep Diving, Database]
-tags: [Database, Postgresql, mysql, oracle]
+title: DB varchar(1) vs boolean, varchar(14) vs timestamp 에 관한 고찰
+categories:
+  - Database
+  - Topic
+tags:
+  - Database
+  - Postgresql
+  - mysql
+  - oracle
 ---
 
 ## 1. 개요

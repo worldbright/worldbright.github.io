@@ -1,8 +1,8 @@
 ---
 title: 쿠버네티스에서 ingress, service 등을 거친 요청은 어떻게 전달될까? 실제 client IP는 유지될까?
 categories:
-  - Deep Diving
   - Kubernetes
+  - Topic
 tags:
   - Kubernetes
   - HTTP

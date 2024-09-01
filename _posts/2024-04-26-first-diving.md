@@ -1,7 +1,8 @@
 ---
-title: "첫 글, 첫 다이빙"
-categories: [Deep Diving, Free]
-tags: null
+title: 첫 글, 첫 다이빙
+categories:
+  - Free
+tags:
 ---
 
 블로그 개설 후 첫 글이에요.
