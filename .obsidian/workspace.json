@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1f666ebce5d5e07a",
+        "id": "41f02de27d4fc287",
         "type": "tabs",
         "children": [
           {
-            "id": "d27490454e9e5f0f",
+            "id": "f3f1cb30f3fb39e5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-09-01-leetcode-125-Valid-Palindrome.md",
+                "file": "_posts/2024-09-01-leetcode-209-Minimum-Size-Subarray-Sum.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-09-01-leetcode-125-Valid-Palindrome.md",
+                "file": "_posts/2024-09-01-leetcode-209-Minimum-Size-Subarray-Sum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-09-01-leetcode-125-Valid-Palindrome.md",
+                "file": "_posts/2024-09-01-leetcode-209-Minimum-Size-Subarray-Sum.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-09-01-leetcode-125-Valid-Palindrome.md"
+                "file": "_posts/2024-09-01-leetcode-209-Minimum-Size-Subarray-Sum.md"
               }
             }
           }
@@ -146,10 +146,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d27490454e9e5f0f",
+  "active": "f3f1cb30f3fb39e5",
   "lastOpenFiles": [
-    "_posts/2024-06-02-about-kubernetes-client-ip.md",
     "_posts/2024-09-01-leetcode-125-Valid-Palindrome.md",
+    "_posts/2024-09-01-leetcode-209-Minimum-Size-Subarray-Sum.md",
+    "_posts/2024-06-02-about-kubernetes-client-ip.md",
     "_posts/2024-09-01-leetcode-122-Best-Time-to-Buy-and-Sell-Stock 2.md",
     "_posts/2024-09-01-leetcode-121-Best-Time-to-Buy-and-Sell-Stock.md",
     "_posts/2024-08-31-leetcode-189-Rotate-Array.md",
@@ -192,7 +193,6 @@
     "ready/2024-07-27-rdbms-varchar-compare-to-boolean-and-date-format.md",
     "backup/rdbms varchar compare to boolean and date format.md",
     "ready/2024-07-08-leetcode-169-Majority-Element.md",
-    "backup/leetcode-169-Majority-Element.md",
-    "_posts/2024-04-26-first-diving.md"
+    "backup/leetcode-169-Majority-Element.md"
   ]
 }
