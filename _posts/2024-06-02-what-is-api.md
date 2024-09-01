@@ -1,8 +1,8 @@
 ---
 title: API 란?
 categories:
-  - Basic
   - Topic
+  - Basic
 tags:
   - API
   - HTTP

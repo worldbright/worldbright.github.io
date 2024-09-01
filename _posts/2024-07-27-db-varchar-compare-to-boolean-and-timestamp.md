@@ -1,8 +1,8 @@
 ---
 title: DB varchar(1) vs boolean, varchar(14) vs timestamp 에 관한 고찰
 categories:
-  - Database
   - Topic
+  - Database
 tags:
   - Database
   - Postgresql
