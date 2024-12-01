@@ -1,7 +1,7 @@
 ---
 title: 첫 글, 첫 다이빙
 categories:
-  - Free
+  - Thoughts
 tags:
 ---
 
