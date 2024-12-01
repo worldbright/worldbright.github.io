@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-12-01-about-job.md",
+                "file": "_posts/2024-07-27-db-varchar-compare-to-boolean-and-timestamp.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-12-01-about-job"
+              "title": "2024-07-27-db-varchar-compare-to-boolean-and-timestamp"
             }
           }
         ]
@@ -161,13 +161,13 @@
   "active": "5c60af30801e60cb",
   "lastOpenFiles": [
     "_posts/2024-06-16-morgon-og-kveld.md",
-    "_posts/2024-06-02-what-is-api.md",
-    "_posts/2024-06-09-leetcode-27-Remove-Element.md",
     "_posts/2024-06-02-about-kubernetes-client-ip.md",
-    "_posts/2024-04-27-leetcode-start.md",
+    "_posts/2024-06-02-what-is-api.md",
     "_posts/2024-04-27-leetcode-88.md",
-    "_posts/2024-04-26-first-diving.md",
     "_posts/2024-12-01-about-job.md",
+    "_posts/2024-06-09-leetcode-27-Remove-Element.md",
+    "_posts/2024-04-27-leetcode-start.md",
+    "_posts/2024-04-26-first-diving.md",
     "_posts/2024-07-04-Software-Engineering-at-Google.md",
     "_posts/2024-09-01-leetcode-125-Valid-Palindrome.md",
     "_posts/2024-09-01-leetcode-209-Minimum-Size-Subarray-Sum.md",
