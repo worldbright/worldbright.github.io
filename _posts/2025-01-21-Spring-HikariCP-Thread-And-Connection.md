@@ -133,7 +133,7 @@ public class ConcurrentBag<T extends IConcurrentBagEntry> implements AutoCloseab
  > 1. 멤버 변수 threadLocalList 중 가장 **마지막으로** 오는 STATE_NOT_IN_USE 상태인 커넥션을 찾으면 **threadLocalList에서 삭제하고**, 바로 반환합니다.
  > 2. 멤버 변수 sharedList 중 가장 **처음으로** 오는 STATE_NOT_IN_USE 상태인 커넥션을 찾으면 바로 반환합니다.
  
-역시나 쓰레드 관련한 로직이 있습니다!! 멤버 변수 threadLocalList는 이름과 자료형 ThreadLocal만 봐도 알 수 있듯이, 하나의 쓰레드가 가지는 독립적인 저장공간입니다. 다음으로 요 threadLocalList에 언제 접근되고, 언제 요소가 추가되는지 알아봤습니다.
+역시나 쓰레드 관련한 로직이 있습니다!! 멤버 변수 threadLocalList는 이름과 자료형 ThreadLocal만 봐도 알 수 있듯이, 하나의 쓰레드가 가지는 독립적인 저장공간입니다. 다음으로 요 threadLocalList에 HikariCP가 언제 접근하고, 언제 요소를 추가하는지 알아봤습니다.
 
 #### 03. ConcurrentBag.java - requite()
 
