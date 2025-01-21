@@ -39,7 +39,7 @@ _"HikariCP가 커넥션풀에서 커넥션을 주는 로직을 이해하면 방�
 
 ## HikariCP 가 쓰레드별 Connection을 관리하는 법
 
-HikariCP : [https://github.com/brettwooldridge/HikariCP](https://github.com/brettwooldridge/HikariCP)
+HikariCP : [https://github.com/brettwooldridge/HikariCP](https://github.com/brettwooldridge/HikariCP){:target="blank"}
 
 #### 01. HikariPool.java
 
