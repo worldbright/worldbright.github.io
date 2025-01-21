@@ -10,7 +10,7 @@ tags:
 
 2025년 새해가 밝았습니다...! 새해 복 많이 받자구요~~
 
-# 개요
+## 개요
 
 #### 01. Temporary Table
 
@@ -36,7 +36,7 @@ Temporary Table을 이용하면 DDL 권한 없이 데이터베이스 테이블�
 _"HikariCP가 커넥션풀에서 커넥션을 주는 로직을 이해하면 방법이 떠오르지 않을까?"_ 싶었습니다.  
 결국 **HikariCP 코드를 직접 파보기로 했습니다.**
 
-# HikariCP 가 쓰레드별 Connection을 관리하는 법
+## HikariCP 가 쓰레드별 Connection을 관리하는 법
 
 HikariCP : [https://github.com/brettwooldridge/HikariCP](https://github.com/brettwooldridge/HikariCP)
 
@@ -186,7 +186,7 @@ public void requite(final T bagEntry)
 
 위와 같이 정리됩니다.
 
-# Spring(HikariCP) 에서 여러 커넥션 중 동일한 커넥션을 계속 사용하는 방법
+## Spring(HikariCP) 에서 여러 커넥션 중 동일한 커넥션을 계속 사용하는 방법
 
 HikariCP 에서 **커넥션이 사용 가능할 때** 하나의 쓰레드는 항상 동일한 커넥션을 얻는 것이 보장됩니다.
  > _물론, **다른 쓰레드에서 이 커넥션 A를 사용하고 있다면** 이 쓰레드는 sharedList에서 완전히 다른 커넥션 B를 획득하게 되고, 커넥션 A 정보는 threadLocalList에 남아있긴 하지만 threadLocalList = [ A, B ] 형태가 되기 때문에 다시 커넥션 B를 사용해서 threadLocalList에서 B를 제거한 이후에야 A 커넥션을 반환받을 수 있습니다. threadLocalList는 가장 마지막의 요소들부터 순차적으로 반환되니깐요.)_
@@ -208,7 +208,7 @@ HikariCP 에서 **커넥션이 사용 가능할 때** 하나의 쓰레드는 항
 
 ---
 
-# 이모저모
+## 이모저모
 
 1. HikariCP 코드를 이리저리 뜯어보던 중 눈에 밟히는게 있어서 수정하고 PR 을 올렸습니다.. ㅎㅎ 저는 왜 저렇게 쓸데없는 거에만 눈이 가는지...
 	- ![image](/assets/img/2025-01-21-2025-01-21-HikariCP/Pasted-image-20250121233227.png)
