@@ -1,5 +1,5 @@
 ---
-title: Spring에서 하나의 쓰레드는 동일한 DB 커넥션을 얻는 것이 보장될까? HikariCP 코드를 뜯어보자.
+title: Spring HikariCP 코드를 뜯어보자.
 categories:
   - 3. Topic
   - Database
