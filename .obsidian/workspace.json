@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-12-30-clean-code.md",
+                "file": "_posts/2025-03-17-Unit-Testing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-12-30-clean-code"
+              "title": "2025-03-17-Unit-Testing"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 346.5
+    "width": 200
   },
   "right": {
     "id": "ed08d75089e95224",
@@ -162,11 +162,14 @@
   "active": "b76adf1c4d181535",
   "lastOpenFiles": [
     "_posts/2025-01-21-Spring-HikariCP-Thread-And-Connection.md",
+    "_posts/2024-12-30-clean-code.md",
+    "_posts/2025-03-17-Unit-Testing.md",
+    "ready/2025-03-17-Unit-Testing(단위-테스트)와-이모저모.md",
+    "backup/Unit-Testing(단위 테스트)와 이모저모.md",
+    "_posts/2024-12-01-about-job.md",
     "_posts/2024-07-04-Software-Engineering-at-Google.md",
     "_posts/2024-07-27-db-varchar-compare-to-boolean-and-timestamp.md",
     "_posts/2024-09-01-leetcode-209-Minimum-Size-Subarray-Sum.md",
-    "_posts/2024-12-01-about-job.md",
-    "_posts/2024-12-30-clean-code.md",
     "attachments/Pasted image 20250121233227.png",
     "ready/2025-01-21-2025-01-21-HikariCP.md",
     "assets/img/2025-01-21-2025-01-21-HikariCP/Pasted-image-20250121233227.png",
@@ -191,8 +194,6 @@
     "_posts/2024-09-01-leetcode-121-Best-Time-to-Buy-and-Sell-Stock.md",
     "_posts/2024-08-31-leetcode-189-Rotate-Array.md",
     "_posts/2024-07-06-leetcode-80-Remove-Duplicates-from-Sorted-Array-2.md",
-    "_posts/2024-07-08-leetcode-169-Majority-Element.md",
-    "ready/2024-08-31-leetcode-189-Rotate-Array.md",
     "_site/assets/js/dist/post.min.js",
     "_site/assets/js/dist/page.min.js",
     "_site/assets/js/dist/misc.min.js",

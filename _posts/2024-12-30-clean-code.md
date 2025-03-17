@@ -1,5 +1,5 @@
 ---
-title: 클린 코드
+title: 클린 코드와 이모저모
 categories:
   - 2. Book
 tags:
