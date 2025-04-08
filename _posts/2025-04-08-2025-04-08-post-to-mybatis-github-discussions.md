@@ -15,15 +15,15 @@ tags: [Database, Mybatis]
 
 아래 글을 영어로 번역해줘. mybatis github issues에 업로드해서 물어볼 사항이야.
 
-%% 제목 : 추후 버전의 mybatis가 ResultMap에 thread를 공식 지원하게 될까요?
-
-내용 : 저는 성능 때문에 xml에 ResultMap를 정의해 사용하지 않고, 직접 로직을 작성해 한 번에 병렬적으로 쿼리한뒤 대상 Object에 set하는 방식으로 ResultMap을 커스텀 개발해 사용해 왔습니다.
-
-Java 21부터 Virtual Thread를 사용할 수 있게 되면서 성능과 활용도가 극적으로 높아졌습니다. 물론 하위 호환성 때문에 mybatis가 Java 11 & 8을 지원해야 해서 Java 21을 사용할 수 없다는 것은 잘 이해하지만, 그럼에도 순차적으로 쿼리하는 기존 mabtis ResultMap 방식은 저에게는 극악적인 성능 상 단점이 존재합니다.
-
-Coroutine/VirtualThread 과 같이 논리적인 thread가 아니라 물리적인 thread를 직접 사용하는 방식이더라도 ResultMap이 쿼리를 병렬적으로 한 번에 가져오는 방식을 추후에라도 사용할 수 있게 되었으면 좋겠습니다. 
-
-Thread Dead Lock 등 안정성의 이유를 들 수 있겠지만, 요즈음 컴퓨팅 성능이 대폭 상승하고 개발 서비스들의 규모나 요구사항도 상승했고, JVM에서도 Virtual Thread 등을 공식 기능으로 넣을 만큼 Thread 처리에 대해 많은 노하우들이 쌓였습니다. Thread 활용 트렌드를 mybatis도 따라가야 한다고 생각합니다. 거부감이 들 만큼 많이 급진적인 내용임을 이해합니다. 허나 많은 분들의 의견을 들어보고 싶습니다. %%
+> 제목 : 추후 버전의 mybatis가 ResultMap에 thread를 공식 지원하게 될까요?
+> 
+> 내용 : 저는 성능 때문에 xml에 ResultMap를 정의해 사용하지 않고, 직접 로직을 작성해 한 번에 병렬적으로 쿼리한뒤 대상 Object에 set하는 방식으로 ResultMap을 커스텀 개발해 사용해 왔습니다.
+> 
+> Java 21부터 Virtual Thread를 사용할 수 있게 되면서 성능과 활용도가 극적으로 높아졌습니다. 물론 하위 호환성 때문에 mybatis가 Java 11 & 8을 지원해야 해서 Java 21을 사용할 수 없다는 것은 잘 이해하지만, 그럼에도 순차적으로 쿼리하는 기존 mabtis ResultMap 방식은 저에게는 극악적인 성능 상 단점이 존재합니다.
+> 
+> Coroutine/VirtualThread 과 같이 논리적인 thread가 아니라 물리적인 thread를 직접 사용하는 방식이더라도 ResultMap이 쿼리를 병렬적으로 한 번에 가져오는 방식을 추후에라도 사용할 수 있게 되었으면 좋겠습니다. 
+> 
+> Thread Dead Lock 등 안정성의 이유를 들 수 있겠지만, 요즈음 컴퓨팅 성능이 대폭 상승하고 개발 서비스들의 규모나 요구사항도 상승했고, JVM에서도 Virtual Thread 등을 공식 기능으로 넣을 만큼 Thread 처리에 대해 많은 노하우들이 쌓였습니다. Thread 활용 트렌드를 mybatis도 따라가야 한다고 생각합니다. 거부감이 들 만큼 많이 급진적인 내용임을 이해합니다. 허나 많은 분들의 의견을 들어보고 싶습니다.
 
 ---
 
