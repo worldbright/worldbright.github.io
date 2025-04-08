@@ -1,7 +1,11 @@
 ---
-title: "Mybatis GitHub Discussions에 글 하나 올려보기"
-categories: [1. Thoughts]
-tags: [Database, Mybatis]
+title: Mybatis GitHub Discussions에 글 하나 올려보기
+categories:
+  - 3. Topic
+  - Database
+tags:
+  - Database
+  - Mybatis
 ---
 # Will future versions of MyBatis officially support multi-threaded or asynchronous ResultMap processing? #3447
 
